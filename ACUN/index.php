@@ -1,13 +1,14 @@
 <?php
-/*require_once 'fncn/fhr.php';
-
-if (! isset($_SESSION)) {
-    session_start();
-}
-if (! $_SESSION['logged'] == 'yes') {
-    nelentry();
-}
-*/
+/*
+ * require_once 'fncn/fhr.php';
+ *
+ * if (! isset($_SESSION)) {
+ * session_start();
+ * }
+ * if (! $_SESSION['logged'] == 'yes') {
+ * nelentry();
+ * }
+ */
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -22,7 +23,7 @@ if (! $_SESSION['logged'] == 'yes') {
 <body onload="ini();">
 	<div id="wrapper">
 		<p style="text-align: left;">
-			<img alt="" src="../images/Logob.png" width="118px" height="48px">
+			<img alt="" src="../images/logoas.png" width="118px" height="48px">
 		</p>
 		<header id="header">
 			<div class="content">
@@ -41,10 +42,10 @@ if (! $_SESSION['logged'] == 'yes') {
 					</ul>
 				</nav>
 				<div class="inner">
-					<img alt="Logo" src="images/Logob.png" width="256" height="318">
+					<img alt="Logo" src="images/Logoc.png" width="256" height="318">
 					<h3 style="padding-top: 20px;">
-						BIENVENIDOS A NUESTRA CONVENCI&oacute;N anual <b>Unidos es mejor -
-							Nos vamos a Xcaret</b>
+						BIENVENIDOS A NUESTRA CONVENCI&oacute;N anual <b>ASESUISA -
+							Nos vamos a CANC&uacute;N</b>
 					</h3>
 					<p style="font-weight: bold;">
 						Del 21 al 23 de Febrero disfruta<br> del Hotel XCaret
@@ -220,14 +221,16 @@ if (! $_SESSION['logged'] == 'yes') {
 						pasaporte en donde estÃ¡n sus datos con la fotograf&iacute;a</li>
 					<li>En su caso, copia de visas y sellos migratorios anteriores</li>
 					<li>Una fotograf&iacute;a reciente (m&aacute;ximo dos meses de
-						antigÃ¼edad) con el rostro visible y sin anteojos, a color, tamaÃ±o
-						c&eacute;dula, con fondo blanco y de frente. Solicitudes con otro
-						tipo o tamaÃ±o de fotograf&iacute;as no ser&aacute;n admitidas.</li>
+						antigÃ¼edad) con el rostro visible y sin anteojos, a color,
+						tamaÃ±o c&eacute;dula, con fondo blanco y de frente. Solicitudes
+						con otro tipo o tamaÃ±o de fotograf&iacute;as no ser&aacute;n
+						admitidas.</li>
 					<li>Carta responsiva ORIGINAL: Original de la carta de una
-						organizaciÃ³n o de una instituciÃ³n pÃºblica o privada de reconocida
-						probidad que invite a la persona extranjera a participar en alguna
-						actividad no remunerada en territorio nacional. La carta deberÃ¡
-						contener, sin excepciÃ³n, los datos especificados en el enlace: <a
+						organizaciÃ³n o de una instituciÃ³n pÃºblica o privada de
+						reconocida probidad que invite a la persona extranjera a
+						participar en alguna actividad no remunerada en territorio
+						nacional. La carta deberÃ¡ contener, sin excepciÃ³n, los datos
+						especificados en el enlace: <a
 						href="https://embamex.sre.gob.mx/elsalvador/index.php/seccion-consular/tipos-de-visa?id=195"
 						target=" " style="color: white; font-weight: bold;">Visa mediante
 							carta responsiva. </a> En ese mismo enlace se detalla m&aacute;s
@@ -255,8 +258,8 @@ if (! $_SESSION['logged'] == 'yes') {
 						la hora programada, deber&aacute; presentar lo siguiente:
 						<ul>
 							<li>Pasaporte vigente.</li>
-							<li>Hoja de ConfirmaciÃ³n de Cita de nuestro Centro de InformaciÃ³n
-								de Visas.</li>
+							<li>Hoja de ConfirmaciÃ³n de Cita de nuestro Centro de
+								InformaciÃ³n de Visas.</li>
 							<li>Hoja de ConfirmaciÃ³n del formulario DS-16.</li>
 							<li>Una fotografÃ­a tamaÃ±o 5X5 cm.</li>
 						</ul>
@@ -335,18 +338,18 @@ if (! $_SESSION['logged'] == 'yes') {
 				<h3 class="major">Tax Free</h3>
 				<p>
 					<b>Â¿QUIENES SOMOS?</b><br> Ofrecemos un servicio GRATUITO de
-					devoluciÃ³n de impuestos diseÃ±ado para beneficiar directamente a los
-					turistas extranjeros, a la vez que brinda una experiencia de compra
-					mÃ¡s agradable.Â  Somos una empresa 100% mexicana, fundada en 2006.
-					Autorizada por SAT, una rama del gobierno mexicano, para
+					devoluciÃ³n de impuestos diseÃ±ado para beneficiar directamente a
+					los turistas extranjeros, a la vez que brinda una experiencia de
+					compra mÃ¡s agradable.Â  Somos una empresa 100% mexicana, fundada
+					en 2006. Autorizada por SAT, una rama del gobierno mexicano, para
 					administrar el servicio de devoluciÃ³n de IVA a turistas
 					extranjeros.
 				</p>
 
 				<b>COMPRAS</b><br> Realiza tus compras en nuestros establecimientos
 				afiliados y eligeÂ entre nuestras 12 categorÃ­as de productos
-				participantes en la devoluciÃ³n deÂ impuestos. Nuestras categorÃ­as son
-				las siguientes:
+				participantes en la devoluciÃ³n deÂ impuestos. Nuestras categorÃ­as
+				son las siguientes:
 				<ol style="text-align: justify;">
 					<li>Grasas y aceites animales o vegetales, productos de su
 						desdoblamiento; grasasÂ alimenticias elaboradas; ceras de origen
@@ -358,20 +361,22 @@ if (! $_SESSION['logged'] == 'yes') {
 					<li>Bebidas, lÃ­quidos alcohÃ³licos (botellas de vino) y vinagre;
 						tabaco y sucedÃ¡neos delÂ tabaco elaborados.</li>
 					<li>Paraguas, quitasoles, bastones, lÃ¡tigos, fustas, y sus partes;
-						flores artificiales;Â manufacturas de cabello (tintes, extensiones,
-						diademas).</li>
+						flores artificiales;Â manufacturas de cabello (tintes,
+						extensiones, diademas).</li>
 					<li>Manufacturas de piedra, cemento, amianto (asbesto), mica o
-						materiasÂ anÃ¡logas; productos cerÃ¡micos; vidrio y sus manufacturas.</li>
-					<li>MÃ¡quinas y aparatos, material elÃ©ctrico y sus partes; aparatos
-						de grabaciÃ³n o deÂ reproducciÃ³n de sonido, aparatos de grabaciÃ³n o
-						de reproducciÃ³n de imagen y deÂ sonido en televisiÃ³n, y las partes
-						y accesorios de estos aparatos.</li>
+						materiasÂ anÃ¡logas; productos cerÃ¡micos; vidrio y sus
+						manufacturas.</li>
+					<li>MÃ¡quinas y aparatos, material elÃ©ctrico y sus partes;
+						aparatos de grabaciÃ³n o deÂ reproducciÃ³n de sonido, aparatos de
+						grabaciÃ³n o de reproducciÃ³n de imagen y deÂ sonido en
+						televisiÃ³n, y las partes y accesorios de estos aparatos.</li>
 					<li>Objetos de arte o de colecciÃ³n y antigÃ¼edades.</li>
-					<li>Instrumentos y aparatos de Ã³ptica (gafas y lentes de contacto),
-						fotografÃ­a o deÂ cinematografÃ­a, de medida, de control o de
-						precisiÃ³n; instrumentos y aparatosÂ mÃ©dico-quirÃºrgicos; aparatos de
-						relojerÃ­a; instrumentos musicales; partes yÂ accesorios de estos
-						instrumentos o aparatos, discos compactos, DVDÂ´s.</li>
+					<li>Instrumentos y aparatos de Ã³ptica (gafas y lentes de
+						contacto), fotografÃ­a o deÂ cinematografÃ­a, de medida, de
+						control o de precisiÃ³n; instrumentos y
+						aparatosÂ mÃ©dico-quirÃºrgicos; aparatos de relojerÃ­a;
+						instrumentos musicales; partes yÂ accesorios de estos instrumentos
+						o aparatos, discos compactos, DVDÂ´s.</li>
 					<li>Materias textiles y sus manufacturas (ropa, calzado, corbatas).</li>
 					<li>Perlas naturales o cultivadas, piedras preciosas o
 						semipreciosas (collares), metalesÂ preciosos, chapados de metal
@@ -382,28 +387,29 @@ if (! $_SESSION['logged'] == 'yes') {
 				</ol>
 
 				<p style="text-align: justify;">
-					<b>DOCUMENTACIÃ“N A PRESENTAR</b><br>DirÃ­jase a las oficinas de TAX
-					FREE y presente -Vouchers y factura. -Pasaporte, su pase de abordar
-					y su forma migratoria (FMM).<br> <br> <b>FACTURAS</b><br>Una vez
-					realizada tu compra solamente necesitas solicitar la factura en el
-					Ã¡rea de cajas o atenciÃ³n a clientes del establecimiento. Recuerda
-					que es muy importante que conserves cada uno de los documentos que
-					avalan el pago, asÃ­ como el ticket de compra, nota de venta y
-					vouchers de tarjeta de crÃ©dito en caso de haber realizado la compra
-					con una tarjeta de crÃ©dito o dÃ©bito. Cuando has pagado en efectivo,
-					las facturas expedidas deben ser mayores a $1,000.00 M.N. (Mil
-					pesos mexicanos) y no deben rebasar los $3,000.00 M.N. (Tres mil
-					pesos mexicanos) para poder realizar la devoluciÃ³n. Para las
-					compras realizadas con tarjeta de crÃ©dito o dÃ©bito el monto mÃ­nimo
-					es de $1,200.00 M.N. (Mil doscientos pesos mexicanos).<br> <br> <b>ARTÃ�CULOS
-						EXENTOS</b><br>Consumos y servicios (hoteles, restaurantes, taxis,
-					boletos de aviÃ³n, bienes -raÃ­ces, etc.) -Productos perecederos.
-					-Libros. -Medicinas. -Bebidas alcohÃ³licas abiertas Todos los
-					documentos deben ser con el mismo nombre del turista.<br> <br> <b>REEMBOLSO</b><br>Se
-					depositarÃ¡ la cantidad correspondiente despuÃ©s de 40 dÃ­as de haber
-					salido del paÃ­s. Se reembolsarÃ¡ el 65%del IVA por disposiciÃ³n
-					oficial.<br> <br> Para mayor informaci&oacute;n puede acceder a: <a
-						href="https://taxfree.com.mx/v1/" target=" "
+					<b>DOCUMENTACIÃ“N A PRESENTAR</b><br>DirÃ­jase a las oficinas de
+					TAX FREE y presente -Vouchers y factura. -Pasaporte, su pase de
+					abordar y su forma migratoria (FMM).<br> <br> <b>FACTURAS</b><br>Una
+					vez realizada tu compra solamente necesitas solicitar la factura en
+					el Ã¡rea de cajas o atenciÃ³n a clientes del establecimiento.
+					Recuerda que es muy importante que conserves cada uno de los
+					documentos que avalan el pago, asÃ­ como el ticket de compra, nota
+					de venta y vouchers de tarjeta de crÃ©dito en caso de haber
+					realizado la compra con una tarjeta de crÃ©dito o dÃ©bito. Cuando
+					has pagado en efectivo, las facturas expedidas deben ser mayores a
+					$1,000.00 M.N. (Mil pesos mexicanos) y no deben rebasar los
+					$3,000.00 M.N. (Tres mil pesos mexicanos) para poder realizar la
+					devoluciÃ³n. Para las compras realizadas con tarjeta de crÃ©dito o
+					dÃ©bito el monto mÃ­nimo es de $1,200.00 M.N. (Mil doscientos pesos
+					mexicanos).<br> <br> <b>ARTÃ�CULOS EXENTOS</b><br>Consumos y
+					servicios (hoteles, restaurantes, taxis, boletos de aviÃ³n, bienes
+					-raÃ­ces, etc.) -Productos perecederos. -Libros. -Medicinas.
+					-Bebidas alcohÃ³licas abiertas Todos los documentos deben ser con
+					el mismo nombre del turista.<br> <br> <b>REEMBOLSO</b><br>Se
+					depositarÃ¡ la cantidad correspondiente despuÃ©s de 40 dÃ­as de
+					haber salido del paÃ­s. Se reembolsarÃ¡ el 65%del IVA por
+					disposiciÃ³n oficial.<br> <br> Para mayor informaci&oacute;n puede
+					acceder a: <a href="https://taxfree.com.mx/v1/" target=" "
 						style="color: white; font-weight: bold;">Tax free</a>
 				</p>
 
@@ -419,16 +425,17 @@ if (! $_SESSION['logged'] == 'yes') {
 					caja. El monto mÃ­nimo es de $1,200.00 MXN. Las compras realizadas
 					en efectivo tienen un limite de $3,000.00 incluyendo IVA por
 					persona. Si el pago es realizado en tarjeta de crÃ©dito, no hay
-					lÃ­mite mÃ¡ximo. Debe solicitar una factura (RFC XEXX010101000), que
-					es el comprobante fiscal oficial por cada compra que realice. <br>
+					lÃ­mite mÃ¡ximo. Debe solicitar una factura (RFC XEXX010101000),
+					que es el comprobante fiscal oficial por cada compra que realice. <br>
 					<br> <b>DOCUMENTACION A PRESENTAR</b><br> Vouchers y facturas. -
 					Pasaporte, su pase de abordar y su forma migratoria (FMM). Todos
 					los documentos deben ser con el mismo nombre del turista.<br> <br>
 					<b>REEMBOLSO</b><br> Se depositarÃ¡ en su tarjeta de crÃ©dito la
-					cantidad correspondiente despuÃ©s de 45 dÃ­as, se reembolsarÃ¡ el 8.9%
-					sobre sus compras. <br> <br> Para mayor informaci&oacute;n visita
-					el siguiente enlace: <a href="http://www.moneyback.mx/" target=" "
-						style="color: white; font-weight: bold;">Visa de turismo </a>
+					cantidad correspondiente despuÃ©s de 45 dÃ­as, se reembolsarÃ¡ el
+					8.9% sobre sus compras. <br> <br> Para mayor informaci&oacute;n
+					visita el siguiente enlace: <a href="http://www.moneyback.mx/"
+						target=" " style="color: white; font-weight: bold;">Visa de
+						turismo </a>
 				</p>
 			</article>
 
@@ -446,8 +453,8 @@ if (! $_SESSION['logged'] == 'yes') {
 						vuelo.</li>
 					<li>No guardes objetos corto punzantes ni lÃ­quidos en tu maleta de
 						mano, para evitar los decomisos en migraciÃ³n.</li>
-					<li>SeÃ±aliza tu maleta adecuadamente con nombre y apellido y algÃºn
-						distintivo para evitar perdidas.</li>
+					<li>SeÃ±aliza tu maleta adecuadamente con nombre y apellido y
+						algÃºn distintivo para evitar perdidas.</li>
 					<li>No guardes en tu equipaje laptops, tablets o celulares,cÃ¡maras
 						o demÃ¡s objetos de valor, llÃ©valos contigo en tu maleta de mano.</li>
 					<li>No olvides llevar tu protector solar y repelente para
@@ -465,13 +472,13 @@ if (! $_SESSION['logged'] == 'yes') {
 					<li>No olvides tus gafas solares, repelentes o protector.</li>
 					<li>Recuerda reservar con tiempo los tours para que no te pierdas
 						de ninguna experiencia</li>
-					<li>Sigue las recomendaciones de los cÃ³digos de vestimenta para que
-						estemos en armonÃ­a.</li>
+					<li>Sigue las recomendaciones de los cÃ³digos de vestimenta para
+						que estemos en armonÃ­a.</li>
 					<li>Utiliza sombrero o gorras para protegerte del sol.</li>
 					<li>Respeta las reglas y normativas del hotel para evitar cargos
 						extras.</li>
-					<li>No dejes tus pertenencias como cÃ¡maras, tablets, computadoras o
-						celulares sin observaciÃ³n para evitar perdidas o reclamos.</li>
+					<li>No dejes tus pertenencias como cÃ¡maras, tablets, computadoras
+						o celulares sin observaciÃ³n para evitar perdidas o reclamos.</li>
 				</ol>
 				<h3>DespuÃ©s del viaje</h3>
 				<ol>
@@ -505,8 +512,8 @@ if (! $_SESSION['logged'] == 'yes') {
 				<p style="text-align: justify;">
 					<b>Registro y recepciÃ³n de habitaciones</b><br> 12:45 - Llegada al
 					hotel. <br>(Check in es ON THE GO, mientras llegas al hotel te
-					chequearas en lÃ­nea).<br> 13:30 a 14:30 - Bienvenida en el SalÃ³n de
-					convenciones
+					chequearas en lÃ­nea).<br> 13:30 a 14:30 - Bienvenida en el SalÃ³n
+					de convenciones
 
 				</p>
 				<p style="text-align: justify;">
@@ -555,9 +562,9 @@ if (! $_SESSION['logged'] == 'yes') {
 					<b>Fiesta Mexicana en Parque Xoximilco</b><br> 17:30 Salida en
 					lobby<br> 18:30 - 00:00 Noche llena de mÃºsica, baile y fiesta! <br>
 					<b>Show MÃ©xico Espectacular</b><br> 18:30 Salida de hotel hacia
-					parque Xcaret. Conoce la cultura de MÃ©xico con un show excepcional.
-					<br> <b>Xplor Fuego</b><b></b> 17:30 â€“ 23:00 Disfruta el parque
-					Xplor fuego para una aventura diferente!
+					parque Xcaret. Conoce la cultura de MÃ©xico con un show
+					excepcional. <br> <b>Xplor Fuego</b><b></b> 17:30 â€“ 23:00
+					Disfruta el parque Xplor fuego para una aventura diferente!
 				</p>
 				Recomendaciones de Vestuario <span class="image main"><img
 					alt="Recomendaci&oacute;n" src="images/playa-02.png"></span>
@@ -610,22 +617,23 @@ if (! $_SESSION['logged'] == 'yes') {
 					elecciÃ³n.
 				</p>
 				<p style="text-align: justify;">
-					<b>Visita a Parques</b><br>8:30 â€“ Salida a parques completo Hotel-
-					Parque â€“ Hotel.
+					<b>Visita a Parques</b><br>8:30 â€“ Salida a parques completo
+					Hotel- Parque â€“ Hotel.
 				</p>
 				<p style="text-align: justify;">
 					<b>Parques por visitar:</b> <br>XCARET<br> XPLOR<br> XENSES<br>
 					X-HELA<br> XENOTEX<br> XOXIMILCO
 				</p>
 				<p style="text-align: justify;">
-					<b>Almuerzo</b><br>12:00 â€“ 14:00 â€“ Almuerzo en restaurante de tu
-					elecciÃ³n
+					<b>Almuerzo</b><br>12:00 â€“ 14:00 â€“ Almuerzo en restaurante de
+					tu elecciÃ³n
 				</p>
 				<p style="text-align: justify;">
 					<b>Tour nocturnos</b><br>17:30 â€“ Salida hacia tour nocturno.
 				</p>
 				<p style="text-align: justify;">
-					<b>Cena</b><br>19:00 â€“ 20:00 Cena en el restaurante de tu elecciÃ³n.
+					<b>Cena</b><br>19:00 â€“ 20:00 Cena en el restaurante de tu
+					elecciÃ³n.
 				</p>
 
 
