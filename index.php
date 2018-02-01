@@ -54,12 +54,14 @@ if (isset($_POST['acepto'])) {
 		<header id="header">
 			<h1>
 				<img alt="" src="images/Logob.png" width="200px" height="48px">
+				<!-- logo de Asesuisa -->
 			</h1>
 		</header>
 		<article id="main">
 			<header>
 				<h2>
 					<img alt="" src="XBS/images/Logob.png" width="250" height="250">
+					<!-- Logo de Convencion -->
 				</h2>
 				<p>Forma parte de esta experiencia sin igual</p>
 				<ul class="actions" id="butones" style="text-align: center;">

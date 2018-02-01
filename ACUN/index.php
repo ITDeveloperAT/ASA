@@ -22,7 +22,7 @@ if (! $_SESSION['logged'] == 'yes') {
 <body onload="ini();">
 	<div id="wrapper">
 		<p style="text-align: left;">
-			<img alt="" src="../images/Logob.png" width="200px" height="48px">
+			<img alt="" src="../images/Logob.png" width="118px" height="48px">
 		</p>
 		<header id="header">
 			<div class="content">
@@ -41,7 +41,7 @@ if (! $_SESSION['logged'] == 'yes') {
 					</ul>
 				</nav>
 				<div class="inner">
-					<img alt="Logo" src="images/Logob.png" width="300" height="300">
+					<img alt="Logo" src="images/Logob.png" width="256" height="318">
 					<h3 style="padding-top: 20px;">
 						BIENVENIDOS A NUESTRA CONVENCI&oacute;N anual <b>Unidos es mejor -
 							Nos vamos a Xcaret</b>
