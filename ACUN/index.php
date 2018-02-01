@@ -1,5 +1,5 @@
 <?php
-require_once 'fncn/fhr.php';
+/*require_once 'fncn/fhr.php';
 
 if (! isset($_SESSION)) {
     session_start();
@@ -7,6 +7,7 @@ if (! isset($_SESSION)) {
 if (! $_SESSION['logged'] == 'yes') {
     nelentry();
 }
+*/
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -59,14 +60,14 @@ if (! $_SESSION['logged'] == 'yes') {
 		<div id="main" style="background-color: #f5d230; opacity: 0.76">
 			<article id="afi-prk" style="background-color: #24468a;">
 				<h2 class="major">Parques y tours</h2>
-				<h2 style="font-size: 16pt; font-weight: bold;">¡UNA EXPERIENCIA
+				<h2 style="font-size: 16pt; font-weight: bold;">Â¡UNA EXPERIENCIA
 					INOLVIDABLE!</h2>
-				<p>Por tu esfuerzo y dedicación, mereces conocer y divertirte al
-					máximo! Por eso te invitamos a conocer todos los parques del hotel
-					Xcaret, al que tendrás acceso de forma gratuita, en diversos
-					horarios de noche y de día.</p>
+				<p>Por tu esfuerzo y dedicaciÃ³n, mereces conocer y divertirte al
+					mÃ¡ximo! Por eso te invitamos a conocer todos los parques del hotel
+					Xcaret, al que tendrÃ¡s acceso de forma gratuita, en diversos
+					horarios de noche y de dÃ­a.</p>
 				<p>Recuerda que en algunos parques necesitas reserva previa, para
-					que planees tu tiempo y lo disfrutes al máximo!</p>
+					que planees tu tiempo y lo disfrutes al mÃ¡ximo!</p>
 				<p style="text-align: justify;"></p>
 				<h3>Parques D&iacute;a</h3>
 				<h4>Sin reservac&iacute;on previa</h4>
@@ -142,7 +143,7 @@ if (! $_SESSION['logged'] == 'yes') {
 				</div>
 				<p>
 					* Para los parques que requieren reservaci&oacute;n, deber&aacute;n
-					completar el fórmulario que se encuentra al final de cada parque.<br>
+					completar el fÃ³rmulario que se encuentra al final de cada parque.<br>
 
 				</p>
 				<div>
@@ -174,14 +175,14 @@ if (! $_SESSION['logged'] == 'yes') {
 								<td>Charter</td>
 								<td>21 de febrero</td>
 								<td>San Salvador</td>
-								<td>Cancún</td>
+								<td>CancÃºn</td>
 								<td>8:45</td>
 								<td>11:45</td>
 							</tr>
 							<tr>
 								<td>Charter</td>
 								<td>23 de febrero</td>
-								<td>Cancún</td>
+								<td>CancÃºn</td>
 								<td>San Salvador</td>
 								<td>18:40</td>
 								<td>19:00</td>
@@ -194,19 +195,19 @@ if (! $_SESSION['logged'] == 'yes') {
 					MIGRATORIOS
 				</h2>
 				<p>Estos son los documentos requeridos a todo ciudadano extranjero
-					que desee entrar en México:</p>
+					que desee entrar en MÃ©xico:</p>
 				<ul>
-					<li>Pasaporte con vigencia mínima de 6 meses</li>
-					<li>Visa mexicana o americana requerida para salvadoreños, otras
+					<li>Pasaporte con vigencia mÃ­nima de 6 meses</li>
+					<li>Visa mexicana o americana requerida para salvadoreÃ±os, otras
 						nacionalidades consultar con la agencia de viajes.</li>
-					<li>Completar Forma Migratoria Múltiple (FMM) (será entregada el
-						día del vuelo de salida).</li>
+					<li>Completar Forma Migratoria MÃºltipleÂ (FMM) (serÃ¡ entregada el
+						dÃ­a del vuelo de salida).</li>
 				</ul>
 				<h2 class="major">
 					<img alt="" src="images/visaame.png" width="56px" height="37px">&nbsp;REQUISITOS
 					VISA MEXICANA
 				</h2>
-				<b>El solicitante deberá registrarse en <a
+				<b>El solicitante deberÃ¡ registrarse en <a
 					href="https://mexitel.sre.gob.mx/citas.webportal/pages/public/login/login.jsf"
 					target=" " style="color: white; font-weight: bold;">Embajada de
 						M&eacute;xico </a>, programar su cita y presentarse el d&iacute;a
@@ -216,23 +217,23 @@ if (! $_SESSION['logged'] == 'yes') {
 					<li>Formulario llenado completamente por ambos lados a mano con
 						bol&iacute;grafo azul o negro.</li>
 					<li>Pasaporte vigente y copia de la p&aacute;gina principal del
-						pasaporte en donde están sus datos con la fotograf&iacute;a</li>
+						pasaporte en donde estÃ¡n sus datos con la fotograf&iacute;a</li>
 					<li>En su caso, copia de visas y sellos migratorios anteriores</li>
 					<li>Una fotograf&iacute;a reciente (m&aacute;ximo dos meses de
-						antigüedad) con el rostro visible y sin anteojos, a color, tamaño
+						antigÃ¼edad) con el rostro visible y sin anteojos, a color, tamaÃ±o
 						c&eacute;dula, con fondo blanco y de frente. Solicitudes con otro
-						tipo o tamaño de fotograf&iacute;as no ser&aacute;n admitidas.</li>
+						tipo o tamaÃ±o de fotograf&iacute;as no ser&aacute;n admitidas.</li>
 					<li>Carta responsiva ORIGINAL: Original de la carta de una
-						organización o de una institución pública o privada de reconocida
+						organizaciÃ³n o de una instituciÃ³n pÃºblica o privada de reconocida
 						probidad que invite a la persona extranjera a participar en alguna
-						actividad no remunerada en territorio nacional. La carta deberá
-						contener, sin excepción, los datos especificados en el enlace: <a
+						actividad no remunerada en territorio nacional. La carta deberÃ¡
+						contener, sin excepciÃ³n, los datos especificados en el enlace: <a
 						href="https://embamex.sre.gob.mx/elsalvador/index.php/seccion-consular/tipos-de-visa?id=195"
 						target=" " style="color: white; font-weight: bold;">Visa mediante
 							carta responsiva. </a> En ese mismo enlace se detalla m&aacute;s
 						informaci&oacute;n
 					</li>
-					<li>Impresión del Comprobante de la cita agendada.</li>
+					<li>ImpresiÃ³n del Comprobante de la cita agendada.</li>
 					<li>Podras registrarte y agendar tu cita en: <a
 						href="https://mexitel.sre.gob.mx/citas.webportal/pages/public/login/login.jsf"
 						target=" " style="color: white; font-weight: bold;">Embajada de
@@ -254,10 +255,10 @@ if (! $_SESSION['logged'] == 'yes') {
 						la hora programada, deber&aacute; presentar lo siguiente:
 						<ul>
 							<li>Pasaporte vigente.</li>
-							<li>Hoja de Confirmación de Cita de nuestro Centro de Información
+							<li>Hoja de ConfirmaciÃ³n de Cita de nuestro Centro de InformaciÃ³n
 								de Visas.</li>
-							<li>Hoja de Confirmación del formulario DS-16.</li>
-							<li>Una fotografía tamaño 5X5 cm.</li>
+							<li>Hoja de ConfirmaciÃ³n del formulario DS-16.</li>
+							<li>Una fotografÃ­a tamaÃ±o 5X5 cm.</li>
 						</ul>
 					</li>
 				</ol>
@@ -267,8 +268,8 @@ if (! $_SESSION['logged'] == 'yes') {
 					entrevistado pero son com&uacute;nmente solicitados durante la
 					entrevista para apoyar su formulario: cartas de su empleador,
 					partidas de nacimiento y matrimonio, pasaportes con visas vigentes
-					de otros miembros de su núcleo familiar, documentos bancarios,
-					declaraciones de renta y de IVA y títulos de bienes como
+					de otros miembros de su nÃºcleo familiar, documentos bancarios,
+					declaraciones de renta y de IVA y tÃ­tulos de bienes como
 					veh&iacute;culos, casa, terrenos, etc. Esta no es una lista
 					exclusiva y tener los documentos durante la entrevista no garantiza
 					que sea elegible para recibir visa. <br> Para mayor
@@ -281,13 +282,13 @@ if (! $_SESSION['logged'] == 'yes') {
 				<h2 class="major">
 					<img alt="" src="images/ubic.png" width="48px" height="66px">&nbsp;Ubicaci&oacute;n
 				</h2>
-				<p style="text-align: justify;">Hotel Xcaret México está
-					convenientemente ubicado cerca de Parque Xcaret, en el corazón de
-					Riviera Maya, por lo que ofrece fácil acceso a los parques
-					temáticos de Grupo Experiencias Xcaret. A 15 minutos de Playa del
+				<p style="text-align: justify;">Hotel Xcaret MÃ©xico estÃ¡
+					convenientemente ubicado cerca de Parque Xcaret, en el corazÃ³n de
+					Riviera Maya, por lo que ofrece fÃ¡cil acceso a los parques
+					temÃ¡ticos de Grupo Experiencias Xcaret. A 15 minutos de Playa del
 					Carmen Aproximadamente a 45 minutos del Aeropuerto Internacional de
-					Cancún.</p>
-				<p>Carretera Chetumal - Puerto Juárez Kilómetro 282, Solidaridad,
+					CancÃºn.</p>
+				<p>Carretera Chetumal - Puerto JuÃ¡rez KilÃ³metro 282, Solidaridad,
 					77710 Playa del Carmen, Quintana Roo</p>
 				<p>Tel&eacute;fono: +52 (998) 881 9836</p>
 				<iframe
@@ -333,74 +334,74 @@ if (! $_SESSION['logged'] == 'yes') {
 				</h2>
 				<h3 class="major">Tax Free</h3>
 				<p>
-					<b>¿QUIENES SOMOS?</b><br> Ofrecemos un servicio GRATUITO de
-					devolución de impuestos diseñado para beneficiar directamente a los
+					<b>Â¿QUIENES SOMOS?</b><br> Ofrecemos un servicio GRATUITO de
+					devoluciÃ³n de impuestos diseÃ±ado para beneficiar directamente a los
 					turistas extranjeros, a la vez que brinda una experiencia de compra
-					más agradable.  Somos una empresa 100% mexicana, fundada en 2006.
+					mÃ¡s agradable.Â  Somos una empresa 100% mexicana, fundada en 2006.
 					Autorizada por SAT, una rama del gobierno mexicano, para
-					administrar el servicio de devolución de IVA a turistas
+					administrar el servicio de devoluciÃ³n de IVA a turistas
 					extranjeros.
 				</p>
 
 				<b>COMPRAS</b><br> Realiza tus compras en nuestros establecimientos
-				afiliados y elige entre nuestras 12 categorías de productos
-				participantes en la devolución de impuestos. Nuestras categorías son
+				afiliados y eligeÂ entre nuestras 12 categorÃ­as de productos
+				participantes en la devoluciÃ³n deÂ impuestos. Nuestras categorÃ­as son
 				las siguientes:
 				<ol style="text-align: justify;">
 					<li>Grasas y aceites animales o vegetales, productos de su
-						desdoblamiento; grasas alimenticias elaboradas; ceras de origen
-						animal o vegetal (cremas hidratantes para el cuerpo, aceites,
-						tratamientos de belleza, cosméticos, exfoliantes).</li>
-					<li>Plástico y sus manufacturas; caucho y sus manufacturas.</li>
-					<li>Pieles, cueros, peletería, artículos de viaje, bolsos de mano
-						(carteras, billeteras), artículos de talabartería.</li>
-					<li>Bebidas, líquidos alcohólicos (botellas de vino) y vinagre;
-						tabaco y sucedáneos del tabaco elaborados.</li>
-					<li>Paraguas, quitasoles, bastones, látigos, fustas, y sus partes;
-						flores artificiales; manufacturas de cabello (tintes, extensiones,
+						desdoblamiento; grasasÂ alimenticias elaboradas; ceras de origen
+						animal o vegetal (cremas hidratantes para elÂ cuerpo, aceites,
+						tratamientos de belleza, cosmÃ©ticos, exfoliantes).</li>
+					<li>PlÃ¡stico y sus manufacturas; caucho y sus manufacturas.</li>
+					<li>Pieles, cueros, peleterÃ­a, artÃ­culos de viaje, bolsos de mano
+						(carteras, billeteras),Â artÃ­culos de talabarterÃ­a.</li>
+					<li>Bebidas, lÃ­quidos alcohÃ³licos (botellas de vino) y vinagre;
+						tabaco y sucedÃ¡neos delÂ tabaco elaborados.</li>
+					<li>Paraguas, quitasoles, bastones, lÃ¡tigos, fustas, y sus partes;
+						flores artificiales;Â manufacturas de cabello (tintes, extensiones,
 						diademas).</li>
 					<li>Manufacturas de piedra, cemento, amianto (asbesto), mica o
-						materias análogas; productos cerámicos; vidrio y sus manufacturas.</li>
-					<li>Máquinas y aparatos, material eléctrico y sus partes; aparatos
-						de grabación o de reproducción de sonido, aparatos de grabación o
-						de reproducción de imagen y de sonido en televisión, y las partes
+						materiasÂ anÃ¡logas; productos cerÃ¡micos; vidrio y sus manufacturas.</li>
+					<li>MÃ¡quinas y aparatos, material elÃ©ctrico y sus partes; aparatos
+						de grabaciÃ³n o deÂ reproducciÃ³n de sonido, aparatos de grabaciÃ³n o
+						de reproducciÃ³n de imagen y deÂ sonido en televisiÃ³n, y las partes
 						y accesorios de estos aparatos.</li>
-					<li>Objetos de arte o de colección y antigüedades.</li>
-					<li>Instrumentos y aparatos de óptica (gafas y lentes de contacto),
-						fotografía o de cinematografía, de medida, de control o de
-						precisión; instrumentos y aparatos médico-quirúrgicos; aparatos de
-						relojería; instrumentos musicales; partes y accesorios de estos
-						instrumentos o aparatos, discos compactos, DVD´s.</li>
+					<li>Objetos de arte o de colecciÃ³n y antigÃ¼edades.</li>
+					<li>Instrumentos y aparatos de Ã³ptica (gafas y lentes de contacto),
+						fotografÃ­a o deÂ cinematografÃ­a, de medida, de control o de
+						precisiÃ³n; instrumentos y aparatosÂ mÃ©dico-quirÃºrgicos; aparatos de
+						relojerÃ­a; instrumentos musicales; partes yÂ accesorios de estos
+						instrumentos o aparatos, discos compactos, DVDÂ´s.</li>
 					<li>Materias textiles y sus manufacturas (ropa, calzado, corbatas).</li>
 					<li>Perlas naturales o cultivadas, piedras preciosas o
-						semipreciosas (collares), metales preciosos, chapados de metal
-						precioso (plaqué) y manufacturas de estas materias; bisutería;
+						semipreciosas (collares), metalesÂ preciosos, chapados de metal
+						precioso (plaquÃ©) y manufacturas de estas materias;Â bisuterÃ­a;
 						monedas.</li>
-					<li>Artículos varios (perfumes, fragancias, bolígrafos, juguetes,
+					<li>ArtÃ­culos varios (perfumes, fragancias, bolÃ­grafos, juguetes,
 						juegos de mesa)</li>
 				</ol>
 
 				<p style="text-align: justify;">
-					<b>DOCUMENTACIÓN A PRESENTAR</b><br>Diríjase a las oficinas de TAX
+					<b>DOCUMENTACIÃ“N A PRESENTAR</b><br>DirÃ­jase a las oficinas de TAX
 					FREE y presente -Vouchers y factura. -Pasaporte, su pase de abordar
 					y su forma migratoria (FMM).<br> <br> <b>FACTURAS</b><br>Una vez
 					realizada tu compra solamente necesitas solicitar la factura en el
-					área de cajas o atención a clientes del establecimiento. Recuerda
+					Ã¡rea de cajas o atenciÃ³n a clientes del establecimiento. Recuerda
 					que es muy importante que conserves cada uno de los documentos que
-					avalan el pago, así como el ticket de compra, nota de venta y
-					vouchers de tarjeta de crédito en caso de haber realizado la compra
-					con una tarjeta de crédito o débito. Cuando has pagado en efectivo,
+					avalan el pago, asÃ­ como el ticket de compra, nota de venta y
+					vouchers de tarjeta de crÃ©dito en caso de haber realizado la compra
+					con una tarjeta de crÃ©dito o dÃ©bito. Cuando has pagado en efectivo,
 					las facturas expedidas deben ser mayores a $1,000.00 M.N. (Mil
 					pesos mexicanos) y no deben rebasar los $3,000.00 M.N. (Tres mil
-					pesos mexicanos) para poder realizar la devolución. Para las
-					compras realizadas con tarjeta de crédito o débito el monto mínimo
-					es de $1,200.00 M.N. (Mil doscientos pesos mexicanos).<br> <br> <b>ARTÍCULOS
+					pesos mexicanos) para poder realizar la devoluciÃ³n. Para las
+					compras realizadas con tarjeta de crÃ©dito o dÃ©bito el monto mÃ­nimo
+					es de $1,200.00 M.N. (Mil doscientos pesos mexicanos).<br> <br> <b>ARTÃ�CULOS
 						EXENTOS</b><br>Consumos y servicios (hoteles, restaurantes, taxis,
-					boletos de avión, bienes -raíces, etc.) -Productos perecederos.
-					-Libros. -Medicinas. -Bebidas alcohólicas abiertas Todos los
+					boletos de aviÃ³n, bienes -raÃ­ces, etc.) -Productos perecederos.
+					-Libros. -Medicinas. -Bebidas alcohÃ³licas abiertas Todos los
 					documentos deben ser con el mismo nombre del turista.<br> <br> <b>REEMBOLSO</b><br>Se
-					depositará la cantidad correspondiente después de 40 días de haber
-					salido del país. Se reembolsará el 65%del IVA por disposición
+					depositarÃ¡ la cantidad correspondiente despuÃ©s de 40 dÃ­as de haber
+					salido del paÃ­s. Se reembolsarÃ¡ el 65%del IVA por disposiciÃ³n
 					oficial.<br> <br> Para mayor informaci&oacute;n puede acceder a: <a
 						href="https://taxfree.com.mx/v1/" target=" "
 						style="color: white; font-weight: bold;">Tax free</a>
@@ -409,22 +410,22 @@ if (! $_SESSION['logged'] == 'yes') {
 				<hr>
 				<h2 class="major">MONEY BACK</h2>
 				<p style="text-align: justify;">
-					Es el proveedor líder de servicios de reembolso de impuestos
+					Es el proveedor lÃ­der de servicios de reembolso de impuestos
 					(reembolso del impuesto al valor agregado o reembolso del impuesto
-					a las ventas) para viajeros internacionales en México. <br> <br> <b>COMPRAS</b><br>
+					a las ventas) para viajeros internacionales en MÃ©xico. <br> <br> <b>COMPRAS</b><br>
 					Realice sus compras en todos los comercios afiliados a MONEY BACK,
-					la mayoría de los cuales puede identificar a través de una
-					calcomanía o display colocado en la entrada de estos o junto a la
-					caja. El monto mínimo es de $1,200.00 MXN. Las compras realizadas
+					la mayorÃ­a de los cuales puede identificar a travÃ©s de una
+					calcomanÃ­a o display colocado en la entrada de estos o junto a la
+					caja. El monto mÃ­nimo es de $1,200.00 MXN. Las compras realizadas
 					en efectivo tienen un limite de $3,000.00 incluyendo IVA por
-					persona. Si el pago es realizado en tarjeta de crédito, no hay
-					límite máximo. Debe solicitar una factura (RFC XEXX010101000), que
+					persona. Si el pago es realizado en tarjeta de crÃ©dito, no hay
+					lÃ­mite mÃ¡ximo. Debe solicitar una factura (RFC XEXX010101000), que
 					es el comprobante fiscal oficial por cada compra que realice. <br>
 					<br> <b>DOCUMENTACION A PRESENTAR</b><br> Vouchers y facturas. -
 					Pasaporte, su pase de abordar y su forma migratoria (FMM). Todos
 					los documentos deben ser con el mismo nombre del turista.<br> <br>
-					<b>REEMBOLSO</b><br> Se depositará en su tarjeta de crédito la
-					cantidad correspondiente después de 45 días, se reembolsará el 8.9%
+					<b>REEMBOLSO</b><br> Se depositarÃ¡ en su tarjeta de crÃ©dito la
+					cantidad correspondiente despuÃ©s de 45 dÃ­as, se reembolsarÃ¡ el 8.9%
 					sobre sus compras. <br> <br> Para mayor informaci&oacute;n visita
 					el siguiente enlace: <a href="http://www.moneyback.mx/" target=" "
 						style="color: white; font-weight: bold;">Visa de turismo </a>
@@ -440,15 +441,15 @@ if (! $_SESSION['logged'] == 'yes') {
 				<ol>
 					<li>Recuerda llevar tu pasaporte vigente y a la mano para agilizar
 						los tramites migratorios.</li>
-					<li>Utiliza ropa cómoda, ligera y zapatos cerrados para viajar,
+					<li>Utiliza ropa cÃ³moda, ligera y zapatos cerrados para viajar,
 						llevando siempre una chaqueta para abrigarte del frio durante el
 						vuelo.</li>
-					<li>No guardes objetos corto punzantes ni líquidos en tu maleta de
-						mano, para evitar los decomisos en migración.</li>
-					<li>Señaliza tu maleta adecuadamente con nombre y apellido y algún
+					<li>No guardes objetos corto punzantes ni lÃ­quidos en tu maleta de
+						mano, para evitar los decomisos en migraciÃ³n.</li>
+					<li>SeÃ±aliza tu maleta adecuadamente con nombre y apellido y algÃºn
 						distintivo para evitar perdidas.</li>
-					<li>No guardes en tu equipaje laptops, tablets o celulares,cámaras
-						o demás objetos de valor, llévalos contigo en tu maleta de mano.</li>
+					<li>No guardes en tu equipaje laptops, tablets o celulares,cÃ¡maras
+						o demÃ¡s objetos de valor, llÃ©valos contigo en tu maleta de mano.</li>
 					<li>No olvides llevar tu protector solar y repelente para
 						mosquitos.</li>
 					<li>No ingresar licor ni cremas en tu maleta de mano, para evitar
@@ -459,20 +460,20 @@ if (! $_SESSION['logged'] == 'yes') {
 				<h3>Durante el viaje</h3>
 				<ol>
 					<li>Trata de estar 10 min antes de la salida a cualquier tour o
-						ceremonia, recuerda que la puntualidad te ayudará a disfrutar mas
+						ceremonia, recuerda que la puntualidad te ayudarÃ¡ a disfrutar mas
 						cada segundo de tu viaje.</li>
 					<li>No olvides tus gafas solares, repelentes o protector.</li>
 					<li>Recuerda reservar con tiempo los tours para que no te pierdas
 						de ninguna experiencia</li>
-					<li>Sigue las recomendaciones de los códigos de vestimenta para que
-						estemos en armonía.</li>
+					<li>Sigue las recomendaciones de los cÃ³digos de vestimenta para que
+						estemos en armonÃ­a.</li>
 					<li>Utiliza sombrero o gorras para protegerte del sol.</li>
 					<li>Respeta las reglas y normativas del hotel para evitar cargos
 						extras.</li>
-					<li>No dejes tus pertenencias como cámaras, tablets, computadoras o
-						celulares sin observación para evitar perdidas o reclamos.</li>
+					<li>No dejes tus pertenencias como cÃ¡maras, tablets, computadoras o
+						celulares sin observaciÃ³n para evitar perdidas o reclamos.</li>
 				</ol>
-				<h3>Después del viaje</h3>
+				<h3>DespuÃ©s del viaje</h3>
 				<ol>
 					<li>Comparte esta gran experiencia con tus familiares y amigos y
 						disfruta de los grandes recuerdos que te deja el viaje!</li>
@@ -480,7 +481,7 @@ if (! $_SESSION['logged'] == 'yes') {
 				<h3>Durante tu estad&iacute;a</h3>
 				<ol>
 					<li>No se permite fumar dentro de las habitaciones y la persona que
-						lo haga pagará una multa de 500 USD.</li>
+						lo haga pagarÃ¡ una multa de 500 USD.</li>
 				</ol>
 			</article>
 			<article id="jbmr" style="background-color: #24468a;">
@@ -493,7 +494,7 @@ if (! $_SESSION['logged'] == 'yes') {
 				<span class="image main"><img src="HotelXcaret/images/Fondo.png"
 					alt="" /></span>
 				<p style="text-align: justify;">El momento de reconocer tu excelente
-					desempeño ha llegado, en un escenario paradisiaco y lleno de
+					desempeÃ±o ha llegado, en un escenario paradisiaco y lleno de
 					diversi&oacute;n.</p>
 
 				<p style="text-align: justify;">
@@ -502,15 +503,15 @@ if (! $_SESSION['logged'] == 'yes') {
 					Xcaret.
 				</p>
 				<p style="text-align: justify;">
-					<b>Registro y recepción de habitaciones</b><br> 12:45 - Llegada al
+					<b>Registro y recepciÃ³n de habitaciones</b><br> 12:45 - Llegada al
 					hotel. <br>(Check in es ON THE GO, mientras llegas al hotel te
-					chequearas en línea).<br> 13:30 a 14:30 - Bienvenida en el Salón de
+					chequearas en lÃ­nea).<br> 13:30 a 14:30 - Bienvenida en el SalÃ³n de
 					convenciones
 
 				</p>
 				<p style="text-align: justify;">
 					<b>Almuerzo / Snack</b><br> 14:30 a 15:30 - Almuerzo en el
-					restaurante de tu elección.<br> 15:30 a 18:00 - Tarde libre para
+					restaurante de tu elecciÃ³n.<br> 15:30 a 18:00 - Tarde libre para
 					que puedas explorar el hotel.
 				</p>
 				<p style="text-align: justify;">
@@ -532,14 +533,14 @@ if (! $_SESSION['logged'] == 'yes') {
 				<h2 class="major">22 de Febrero</h2>
 				<span class="image main"><img src="images/Dia2.png" alt="" /></span>
 				<p>
-					Este día es enteramente para ti, para que disfrutes de los parques
+					Este dÃ­a es enteramente para ti, para que disfrutes de los parques
 					y los tours y explores la belleza de Xcaret. <br> <b>Parques por
 						visitar:</b> <br>XCARET<br> XPLOR<br> XENSES<br> X-HELA<br>
 					XENOTEX<br> XOXIMILCO
 				</p>
 				<p>
 					<b>Desayuno</b><br>7:00 a 8:00 - Desayuno en Restaurante de tu
-					elección.
+					elecciÃ³n.
 				</p>
 				<p>
 					<b>Almuerzo</b><br>12:00 a 14:00 - En el restaurante de tu
@@ -552,10 +553,10 @@ if (! $_SESSION['logged'] == 'yes') {
 				<p style="text-align: justify;">
 					<b>Tienes diferentes opciones para que disfrutes tu noche:</b><br>
 					<b>Fiesta Mexicana en Parque Xoximilco</b><br> 17:30 Salida en
-					lobby<br> 18:30 - 00:00 Noche llena de música, baile y fiesta! <br>
-					<b>Show México Espectacular</b><br> 18:30 Salida de hotel hacia
-					parque Xcaret. Conoce la cultura de México con un show excepcional.
-					<br> <b>Xplor Fuego</b><b></b> 17:30 – 23:00 Disfruta el parque
+					lobby<br> 18:30 - 00:00 Noche llena de mÃºsica, baile y fiesta! <br>
+					<b>Show MÃ©xico Espectacular</b><br> 18:30 Salida de hotel hacia
+					parque Xcaret. Conoce la cultura de MÃ©xico con un show excepcional.
+					<br> <b>Xplor Fuego</b><b></b> 17:30 â€“ 23:00 Disfruta el parque
 					Xplor fuego para una aventura diferente!
 				</p>
 				Recomendaciones de Vestuario <span class="image main"><img
@@ -565,35 +566,35 @@ if (! $_SESSION['logged'] == 'yes') {
 				<span class="image main"><img src="images/Dia3.png" alt="" /></span>
 				<p style="text-align: justify;">
 					Tenemos para ti toda una oferta de desayunos, snacks y un paseo por
-					el parque de tu elecci&oacute;n (XCARET – XPLOR y XENSES). <br> <b>*
+					el parque de tu elecci&oacute;n (XCARET â€“ XPLOR y XENSES). <br> <b>*
 						Si eliges visitar los parques en este dia, recuerda hacer
 						previamente tu check out y dejar tus maletas en el lobby.</b>
 				</p>
 				<p style="text-align: justify;">
-					<b>Desayuno</b><br>7:00 – 8:00 Desayuno en el restaurante de tu
-					elección.
+					<b>Desayuno</b><br>7:00 â€“ 8:00 Desayuno en el restaurante de tu
+					elecciÃ³n.
 				</p>
 				<p style="text-align: justify;">
-					<b>Visita a Parques XCARET – XPLOR - XENSES</b><br>8:30 – 13:00
-					Salida a parques completo Hotel- Parque – Hotel.
+					<b>Visita a Parques XCARET â€“ XPLOR - XENSES</b><br>8:30 â€“ 13:00
+					Salida a parques completo Hotel- Parque â€“ Hotel.
 				</p>
 				<p style="text-align: justify;">
-					<b>Llegada de acompa&ntilde;antes</b><br>11:30 – LLegada de
-					acompañantes de ganadores EXCELENCIA.<br> 13:30 – Check in en el
-					hotel a acompañantes
+					<b>Llegada de acompa&ntilde;antes</b><br>11:30 â€“ LLegada de
+					acompaÃ±antes de ganadores EXCELENCIA.<br> 13:30 â€“ Check in en el
+					hotel a acompaÃ±antes
 				</p>
 				<p style="text-align: justify;">
-					<b>Almuerzo</b><br>12:00 – 13:00 –Almuerzo en restaurante de tu
-					elección
+					<b>Almuerzo</b><br>12:00 â€“ 13:00 â€“Almuerzo en restaurante de tu
+					elecciÃ³n
 				</p>
 				<p style="text-align: justify;">
-					<b>Check-out</b><br>13:30 – 14:30 Entrega de habitaciones
+					<b>Check-out</b><br>13:30 â€“ 14:30 Entrega de habitaciones
 				</p>
 				<p style="text-align: justify;">
-					<b>Salida</b><br>15:00 – Traslado a aeropuerto .
+					<b>Salida</b><br>15:00 â€“ Traslado a aeropuerto .
 				</p>
 				<p style="text-align: justify;">
-					<b>Tour de acompa&ntilde;antes</b><br>17:00 – Salida hacia tour
+					<b>Tour de acompa&ntilde;antes</b><br>17:00 â€“ Salida hacia tour
 					nocturno.
 				</p>
 
@@ -603,44 +604,44 @@ if (! $_SESSION['logged'] == 'yes') {
 				<h2 class="major">24 de Febrero</h2>
 				<p style="text-align: justify;">Tenemos para ti toda una oferta de
 					desayunos, almuerzos, cenas y snacks, un paseo por los parques para
-					que disfrutes de este paraíso tropical.</p>
+					que disfrutes de este paraÃ­so tropical.</p>
 				<p style="text-align: justify;">
-					<b>Desayuno</b><br>7:00 – 8:00 Desayuno en el restaurante de tu
-					elección.
+					<b>Desayuno</b><br>7:00 â€“ 8:00 Desayuno en el restaurante de tu
+					elecciÃ³n.
 				</p>
 				<p style="text-align: justify;">
-					<b>Visita a Parques</b><br>8:30 – Salida a parques completo Hotel-
-					Parque – Hotel.
+					<b>Visita a Parques</b><br>8:30 â€“ Salida a parques completo Hotel-
+					Parque â€“ Hotel.
 				</p>
 				<p style="text-align: justify;">
 					<b>Parques por visitar:</b> <br>XCARET<br> XPLOR<br> XENSES<br>
 					X-HELA<br> XENOTEX<br> XOXIMILCO
 				</p>
 				<p style="text-align: justify;">
-					<b>Almuerzo</b><br>12:00 – 14:00 – Almuerzo en restaurante de tu
-					elección
+					<b>Almuerzo</b><br>12:00 â€“ 14:00 â€“ Almuerzo en restaurante de tu
+					elecciÃ³n
 				</p>
 				<p style="text-align: justify;">
-					<b>Tour nocturnos</b><br>17:30 – Salida hacia tour nocturno.
+					<b>Tour nocturnos</b><br>17:30 â€“ Salida hacia tour nocturno.
 				</p>
 				<p style="text-align: justify;">
-					<b>Cena</b><br>19:00 – 20:00 Cena en el restaurante de tu elección.
+					<b>Cena</b><br>19:00 â€“ 20:00 Cena en el restaurante de tu elecciÃ³n.
 				</p>
 
 
 				<h2 class="major">25 de Febrero</h2>
 				<span class="image main"><img src="images/Dia3.png" alt="" /></span>
-				<p style="text-align: justify;">Nos despedimos de este paraíso
-					tropical y esperamos con ansias verte el próximo año!!</p>
+				<p style="text-align: justify;">Nos despedimos de este paraÃ­so
+					tropical y esperamos con ansias verte el prÃ³ximo aÃ±o!!</p>
 				<p style="text-align: justify;">
-					<b>Desayuno</b><br>7:00 – 8:00 Desayuno en el restaurante de tu
-					elección.
+					<b>Desayuno</b><br>7:00 â€“ 8:00 Desayuno en el restaurante de tu
+					elecciÃ³n.
 				</p>
 				<p style="text-align: justify;">
-					<b>Check-out</b><br>9:00 – Entrega de habitaciones.
+					<b>Check-out</b><br>9:00 â€“ Entrega de habitaciones.
 				</p>
 				<p style="text-align: justify;">
-					<b>Salida</b><br>10:00 – Traslado a aeropuerto para abordar vuelo
+					<b>Salida</b><br>10:00 â€“ Traslado a aeropuerto para abordar vuelo
 					con destino a El Salvador.
 				</p>
 
