@@ -49,6 +49,7 @@ if (isset($_POST['acepto'])) {
 <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 <body onload="ini();">
+<<<<<<< HEAD
 	<form method="post" action="index.php" enctype="multipart/form-data">
 		<div id="page-wrapper">
 			<header id="header">
@@ -56,6 +57,30 @@ if (isset($_POST['acepto'])) {
 					<img alt="" src="images/Logobl.png" width="118px" height="48px">
 					<!-- 				<img alt="" src="images/Logob.png" width="200px" height="48px"> -->
 				</h1>
+=======
+			<form method="post" action="index.php" enctype="multipart/form-data">
+	<div id="page-wrapper">
+		<header id="header">
+			<h1>
+				<img alt="" src="images/Logob.png" width="200px" height="48px">
+				<!-- logo de Asesuisa -->
+			</h1>
+		</header>
+		<article id="main">
+			<header>
+				<h2>
+					<img alt="" src="XBS/images/Logob.png" width="250" height="250">
+					<!-- Logo de Convencion -->
+				</h2>
+				<p>Forma parte de esta experiencia sin igual</p>
+				<ul class="actions" id="butones" style="text-align: center;">
+								<li><input type="button" value="Registrarme" class="special"
+									onclick="shw(0);" /></li>
+								<li><input type="button" value="Ya estoy registrado"
+									class="special" onclick="shw(1);" /></li>
+							</ul>
+							<a href="#ff" class="more scrolly" id="gonow" hidden="">Pulsa aqu&iacute; para iniciar la experiencia</a>
+>>>>>>> branch 'master' of https://github.com/ITDeveloperAT/ASA.git
 			</header>
 			<article id="main">
 				<header>
