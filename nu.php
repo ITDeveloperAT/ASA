@@ -1,5 +1,5 @@
 <?php
-require 'XBS/fncn/fhr.php';
+require 'ACUN/fncn/fhr.php';
 if (isset($_REQUEST['acept'])) {
     $aux = "";
     $j = 15;

@@ -1,5 +1,5 @@
 <?php
-require 'XBS/fncn/fhr.php';
+require 'ACUN/fncn/fhr.php';
 $ncp = ncpais();
 if (! isset($_SESSION)) {
     session_start();
