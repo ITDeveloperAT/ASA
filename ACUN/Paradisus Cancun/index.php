@@ -1,5 +1,5 @@
 <?php
-require_once '../fncn/fhr.php';
+/*require_once '../fncn/fhr.php';
 
 if (! isset($_SESSION)) {
     session_start();
@@ -8,6 +8,7 @@ if (! $_SESSION['logged'] == 'yes') {
     nelentry();
 }
 // var_dump($_SESSION['nuac']);
+*/
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -66,16 +67,16 @@ if (! $_SESSION['logged'] == 'yes') {
 		<section id="two" class="wrapper alt style2">
 			<section class="spotlight">
 				<div class="image">
-					<img src="images/pic01.png" alt="" />
+					<img src="images/hab1.jpg" alt="" />
 				</div>
 				<div class="content">
 					<h2>
 						Suites<br />
 					</h2>
 					<p>
-						Las suites del Hotel Xcaret México, son amplias y lujosas, y están
-						distribuidas en cinco edificios. Nuestro grupo estar&aacute;
-						hospedado en casa viento y casa espiral <a href="CT">Leer
+						Espaciosas, lujosas y elegantes, nuestras suites disponen de
+						terraza privada y espectaculares vistas al mar Caribe o la laguna
+						Nichupté. <a href="CT">Leer
 							m&aacute;s</a>
 					</p>
 				</div>

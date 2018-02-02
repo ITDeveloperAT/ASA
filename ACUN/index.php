@@ -44,15 +44,12 @@
 				<div class="inner">
 					<img alt="Logo" src="images/Logoc.png" width="256" height="318">
 					<h3 style="padding-top: 20px;">
-						BIENVENIDOS A NUESTRA CONVENCI&oacute;N anual <b>ASESUISA - Nos
-							vamos a CANC&uacute;N</b>
+						BIENVENIDOS A NUESTRA CONVENCI&oacute;N anual <b>ASESUISA <br>
+						- Nos vamos a CANC&uacute;N - </b>
 					</h3>
 					<p style="font-weight: bold;">
-						Del 21 al 23 de Febrero disfruta<br> del Hotel XCaret
-						M&eacute;xico y Experiencia Xcaret,<br> tu merecida aventura como
-						reconocimiento por tus resultados. <br> <br> Si eres el afortunado
-						ganador del derecho al acompa&ntilde;ante,<br> tu estad&iacute;a
-						ser&aacute; hasta el 25 de Febrero 2018.
+						Del 6 al 9 de Marzo disfruta<br>
+					
 					</p>
 					<br> <br>
 				</div>
