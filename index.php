@@ -1,5 +1,5 @@
 <?php
-require 'ACUN/fncn/fhr.php';
+/*require 'ACUN/fncn/fhr.php';
 $ncp = ncpais();
 if (! isset($_SESSION)) {
     session_start();
@@ -38,7 +38,7 @@ if (isset($_POST['Send'])) {
 if (isset($_POST['acepto'])) {
     stateman($_POST['pssr'], 1);
 }
-
+*/
 ?>
 <!DOCTYPE HTML>
 <html>
