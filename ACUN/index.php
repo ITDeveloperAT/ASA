@@ -23,16 +23,14 @@
 <body onload="ini();">
 	<div id="wrapper">
 		<p style="text-align: left;">
-			<img alt="" src="../images/logoas.png" width="118px" height="48px">
+			<img alt="" src="../images/logoas.png" width="218px" height="78px">
 		</p>
 		<header id="header">
 			<div class="content">
 				<nav style="font-weight: bold; text-align: center;">
 					<ul>
 						<li style="padding-top: 10px; text-align: center;"><a id="en0"
-							href="Paradisus Cancun">Conoce el Hotel</a></li>
-						<li style="padding-top: 10px; text-align: center;"><a id="en1"
-							href="#afi-prk">Conoce los parques y tours</a></li>
+							href="Paradisus Cancun">Conoce Paradisus Canc&uacute;n</a></li>
 						<li style="padding-top: 10px; text-align: center;"><a id="en2"
 							href="#totravel">Para tu viaje</a></li>
 						<li style="padding-top: 10px; text-align: center;"><a id="en0"
@@ -45,11 +43,11 @@
 					<img alt="Logo" src="images/Logoc.png" width="256" height="318">
 					<h3 style="padding-top: 20px;">
 						BIENVENIDOS A NUESTRA CONVENCI&oacute;N anual <b>ASESUISA <br>
-						- Nos vamos a CANC&uacute;N - </b>
+							-Nos vamos a CANC&uacute;N-</b>
 					</h3>
 					<p style="font-weight: bold;">
-						Del 6 al 9 de Marzo disfruta<br>
-					
+						Del 6 al 9 de Marzo disfruta del Hotel Paradisus Canc&uacute;n
+						<br>  <br>
 					</p>
 					<br> <br>
 				</div>
