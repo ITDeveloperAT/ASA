@@ -30,7 +30,7 @@
 				<nav style="font-weight: bold; text-align: center;">
 					<ul>
 						<li style="padding-top: 10px; text-align: center;"><a id="en0"
-							href="HotelXcaret">Conoce el Hotel</a></li>
+							href="Paradisus Cancun">Conoce el Hotel</a></li>
 						<li style="padding-top: 10px; text-align: center;"><a id="en1"
 							href="#afi-prk">Conoce los parques y tours</a></li>
 						<li style="padding-top: 10px; text-align: center;"><a id="en2"

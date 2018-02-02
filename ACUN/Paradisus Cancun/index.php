@@ -43,30 +43,22 @@ if (! $_SESSION['logged'] == 'yes') {
 		<section id="one" class="wrapper style1 special">
 			<div class="inner">
 				<header class="major">
-					<h2>¡LO LOGRASTE! BIENVENIDO A XCARET, M&Eacute;XICO!</h2>
-					<p style="text-align: justify;">Te encuentras en un lugar único y
-						especial, que refleja los orígenes de la cultura maya, lleno de
-						sorpresas, bellísimos paisajes, parques, playas hermosas de la
-						Riviera Maya que quedarán grabados en tu memoria. Los próximos
-						días puedes gozar de las hermosas instalaciones con SUITES de
-						lujo, Bares y Restaurantes con experiencias gastronómicas
-						inigualables, Piscinas, Shows, Bailes, Musica y muchas sorpresas
-						más que te dejaran sin aliento. Disfruta tu estadía y conoce el
-						lindísimo Hotel Xcaret y sus amenidades.</p>
+					<h2>¡LO LOGRASTE! BIENVENIDO A PARADISUS CANCÚN, M&Eacute;XICO!</h2>
+					<p style="text-align: justify;">Perfectamente ubicado frente a las
+						playas de suave arena blanca de Cancún, este exclusivo complejo de
+						playa te ofrece el alojamiento perfecto para tus vacaciones.
+						Paradisus Cancun te brinda la oportunidad de experimentar la
+						impresionante belleza que hace de Cancún un destino internacional
+						con las comodidades de un complejo de lujo a la par con los
+						niveles de excelencia más elevados. Gracias a este compromiso con
+						la calidad, Paradisus Cancún Resort ha recibido desde 2006 los
+						cuatro diamantes que otorga la AAA. Habitaciones lujosas,
+						espaciosas y elegantemente decoradas frente a una playa única, a
+						tan solo 15 minutos del aeropuerto. Estés en la playa, en una de
+						las cuatro piscinas estilo laguna, o cenando en cualquiera de
+						nuestros nueve restaurantes, nuestro objetivo es tu total
+						satisfacción.</p>
 					<br>
-					<h2>Qu&eacute; es el All-Fun inclusive?</h2>
-					<p style="text-align: justify;">
-						Con una marcada esencia mexicana, Hotel Xcaret México se
-						enorgullece en brindar el innovador concepto All-Fun Inclusive®.
-						Este programa te da mucho más que un tradicional Todo Incluido, ya
-						que combina lujosas instalaciones que armonizan con la naturaleza
-						de la Riviera Maya, y el acceso total a todos los parques y tours
-						de Experiencias Xcaret. También te ofrece múltiples actividades y
-						diversas experiencias culinarias, que harán que tus vacaciones
-						sean inolvidables. <br> <br>Incluye regimen alimenticio Sistema
-						todo incluido, acceso ilimitado a parques y tours de Experiencias
-						Xcaret.
-					</p>
 				</header>
 			</div>
 		</section>
