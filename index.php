@@ -16,7 +16,7 @@ if (isset($_POST['Send'])) {
                 } else {
                     ;
                 }
-                $dir = 'Location:XBS/';
+                $dir = 'Location:ASA/';
                 echo header($dir);
                 break;
             
