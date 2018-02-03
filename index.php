@@ -4,7 +4,7 @@ $ncp = ncpais();
 if (! isset($_SESSION)) {
     session_start();
 }
-$target_path = "XBS/assets/dos/";
+$target_path = "ACUN/assets/dos/";
 if (isset($_POST['Send'])) {
     mkdir($target_path . $_POST['c7']);
     for ($i = 0; $i < 2; $i ++) {
@@ -19,7 +19,7 @@ if (isset($_POST['Send'])) {
                 $dir = 'Location:XBS/';
                 echo header($dir);
                 break;
-
+            
             case 1:
                 if ($_POST['c11'] != "E" || $_POST['c11'] != "N") {
                     mkdir($target_path . $_POST['c12']);
