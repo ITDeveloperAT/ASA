@@ -12,9 +12,9 @@ if (isset($_POST['Send'])) {
             case 0:
                 $target_path = $target_path . $_POST['c7'] . '/' . basename($_FILES['f1']['name']);
                 if (move_uploaded_file($_FILES['f1']['tmp_name'], $target_path)) {
-                    // echo "<span style='color:green;'>El archivo " . basename($_FILES['f1']['name']) . " ha sido subido</span><br>";
+                    ;
                 } else {
-                    // echo "Ha ocurrido un error, trate de nuevo!";
+                    ;
                 }
                 $dir = 'Location:XBS/';
                 echo header($dir);
@@ -25,9 +25,9 @@ if (isset($_POST['Send'])) {
                     mkdir($target_path . $_POST['c12']);
                     $target_path = $target_path . $_POST['c12'] . '/' . basename($_FILES['f2']['name']);
                     if (move_uploaded_file($_FILES['f2']['tmp_name'], $target_path)) {
-                        // echo "<span style='color:green;'>El archivo " . basename($_FILES['f2']['name']) . " ha sido subido</span><br>";
+                        ;
                     } else {
-                        // echo "Ha ocurrido un error, trate de nuevo!";
+                        ;
                     }
                     break;
                 }
