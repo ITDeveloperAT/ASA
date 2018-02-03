@@ -284,7 +284,7 @@ if (isset($_POST['acepto'])) {
 			<footer id="footer">
 				Power By:<br> <a href="http://amatetravel.com" target=" "> <img
 					alt="powerby-amatetravel"
-					src="ACUN/images/Amate Travel para fondo gris-01.png" width="291px"
+					src="ACUN/images/Amate Travel para fondo gris-01.png" width="290px"
 					height="44px"></a>
 			</footer>
 
