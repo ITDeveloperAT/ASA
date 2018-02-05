@@ -35,7 +35,7 @@
 			<section>
 				<div class="image">
 					<h2>
-						<img alt="" src="images/Hotel-blanco.png" align="middle">
+						<img alt="" src="images/logoparadisus.png" align="middle">
 					</h2>
 				</div>
 				<a href="#one" class="more scrolly">Descubrelo</a>
