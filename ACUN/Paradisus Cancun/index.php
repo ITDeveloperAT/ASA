@@ -1,19 +1,20 @@
 <?php
-/*require_once '../fncn/fhr.php';
-
-if (! isset($_SESSION)) {
-    session_start();
-}
-if (! $_SESSION['logged'] == 'yes') {
-    nelentry();
-}
-// var_dump($_SESSION['nuac']);
-*/
+/*
+ * require_once '../fncn/fhr.php';
+ *
+ * if (! isset($_SESSION)) {
+ * session_start();
+ * }
+ * if (! $_SESSION['logged'] == 'yes') {
+ * nelentry();
+ * }
+ * // var_dump($_SESSION['nuac']);
+ */
 ?>
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Hotel Xcaret</title>
+<title>Paradisus Canc&uacute;n</title>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="stylesheet" href="assets/css/main.css" />
@@ -22,7 +23,7 @@ if (! $_SESSION['logged'] == 'yes') {
 	<!-- Page Wrapper -->
 	<div id="page-wrapper">
 		<header id="header" class="alt">
-			<h1>Hotel Xcaret</h1>
+			<h1>Paradisus Canc&uacute;n</h1>
 			<nav id="nav">
 				<ul>
 					<li class="special"><a href="../" class="menuToggle"><span>Volver</span></a></li>
@@ -76,23 +77,21 @@ if (! $_SESSION['logged'] == 'yes') {
 					<p>
 						Espaciosas, lujosas y elegantes, nuestras suites disponen de
 						terraza privada y espectaculares vistas al mar Caribe o la laguna
-						Nichupté. <a href="CT">Leer
-							m&aacute;s</a>
+						Nichupté. <a href="CT">Leer m&aacute;s</a>
 					</p>
 				</div>
 			</section>
 			<section class="spotlight">
 				<div class="image">
-					<img src="images/pic02.png" alt="" />
+					<img src="images/restbana.jpg" alt="" />
 				</div>
 				<div class="content">
 					<h2>
 						Restaurantes y bares<br />
 					</h2>
 					<p>
-						Los 8 Restaurantes y 5 Bares de Hotel Xcaret M&eacute;xico te
-						invitan a dar un viaje alrededor de los sabores del mundo donde la
-						gastronom&iacute;a mexicana, <a href="RT">Leer m&aacute;s</a>
+						Una deliciosa y nutritiva selección de opciones gastronómicas para
+						todos los gustos <a href="RT">Leer m&aacute;s</a>
 					
 					
 					<p style="text-align: justify;"></p>
@@ -100,15 +99,16 @@ if (! $_SESSION['logged'] == 'yes') {
 			</section>
 			<section class="spotlight">
 				<div class="image">
-					<img src="images/pic03.png" alt="" />
+					<img src="images/campogolf.jpg" alt="" />
 				</div>
 				<div class="content">
 					<h2>
 						&Aacute;reas Comunes<br />
 					</h2>
 					<p>
-						En armon&iacute;a con el entorno Hotel Xcaret M&eacute;xico te
-						lleva por el camino de relajamiento <a href="OA">Leer m&aacute;s</a>
+						Para algunas personas, ir a la playa es la idea de unas vacaciones
+						perfectas. Para otros, es meter la bola en el hoyo a 10 metros de
+						distancia. <a href="OA">Leer m&aacute;s</a>
 					</p>
 				</div>
 			</section>
