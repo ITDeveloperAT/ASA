@@ -1,14 +1,12 @@
 <?php
-/*
- * require_once 'fncn/fhr.php';
- *
- * if (! isset($_SESSION)) {
- * session_start();
- * }
- * if (! $_SESSION['logged'] == 'yes') {
- * nelentry();
- * }
- */
+require_once 'fncn/fhr.php';
+
+if (! isset($_SESSION)) {
+    session_start();
+}
+if (! $_SESSION['logged'] == 'yes') {
+    nelentry();
+}
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -31,6 +29,8 @@
 					<ul>
 						<li style="padding-top: 10px; text-align: center;"><a id="en0"
 							href="Paradisus Cancun">Conoce Paradisus Canc&uacute;n</a></li>
+						<li style="padding-top: 10px; text-align: center;"><a id="en0"
+							href="Tours">Conoce las actividades</a></li>
 						<li style="padding-top: 10px; text-align: center;"><a id="en2"
 							href="#totravel">Para tu viaje</a></li>
 						<li style="padding-top: 10px; text-align: center;"><a id="en0"
@@ -43,17 +43,18 @@
 					<img alt="Logo" src="images/Logoc.png" width="256" height="318">
 					<h3 style="padding-top: 20px;">
 						BIENVENIDOS A NUESTRA CONVENCI&oacute;N anual <b>ASESUISA <br>
-							-Nos vamos a CANC&uacute;N-</b>
+							-Nos vamos a CANC&uacute;N-
+						</b>
 					</h3>
 					<p style="font-weight: bold;">
-						Del 6 al 9 de Marzo disfruta del Hotel Paradisus Canc&uacute;n
-						<br>  <br>
+						Del 6 al 9 de Marzo disfruta del Hotel Paradisus Canc&uacute;n <br>
+						<br>
 					</p>
 					<br> <br>
 				</div>
 			</div>
 		</header>
-		<div id="main" style="background-color: #f5d230; opacity: 0.76">
+		<div id="main" style="background-color: #12b5cd; opacity: 0.76">
 			<article id="afi-prk" style="background-color: #24468a;">
 				<h2 class="major">Parques y tours</h2>
 				<h2 style="font-size: 16pt; font-weight: bold;">Â¡UNA EXPERIENCIA
