@@ -1,10 +1,10 @@
 <?php
-/*require 'ACUN/fncn/fhr.php';
+require 'ACUN/fncn/fhr.php';
 $ncp = ncpais();
 if (! isset($_SESSION)) {
     session_start();
 }
-$target_path = "XBS/assets/dos/";
+$target_path = "ACUN/assets/dos/";
 if (isset($_POST['Send'])) {
     mkdir($target_path . $_POST['c7']);
     for ($i = 0; $i < 2; $i ++) {
@@ -12,11 +12,11 @@ if (isset($_POST['Send'])) {
             case 0:
                 $target_path = $target_path . $_POST['c7'] . '/' . basename($_FILES['f1']['name']);
                 if (move_uploaded_file($_FILES['f1']['tmp_name'], $target_path)) {
-                    // echo "<span style='color:green;'>El archivo " . basename($_FILES['f1']['name']) . " ha sido subido</span><br>";
+                    ;
                 } else {
-                    // echo "Ha ocurrido un error, trate de nuevo!";
+                    ;
                 }
-                $dir = 'Location:XBS/';
+                $dir = 'Location:ASA/';
                 echo header($dir);
                 break;
             
@@ -25,9 +25,9 @@ if (isset($_POST['Send'])) {
                     mkdir($target_path . $_POST['c12']);
                     $target_path = $target_path . $_POST['c12'] . '/' . basename($_FILES['f2']['name']);
                     if (move_uploaded_file($_FILES['f2']['tmp_name'], $target_path)) {
-                        // echo "<span style='color:green;'>El archivo " . basename($_FILES['f2']['name']) . " ha sido subido</span><br>";
+                        ;
                     } else {
-                        // echo "Ha ocurrido un error, trate de nuevo!";
+                        ;
                     }
                     break;
                 }
@@ -38,7 +38,6 @@ if (isset($_POST['Send'])) {
 if (isset($_POST['acepto'])) {
     stateman($_POST['pssr'], 1);
 }
-*/
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -49,43 +48,19 @@ if (isset($_POST['acepto'])) {
 <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 <body onload="ini();">
-<<<<<<< HEAD
 	<form method="post" action="index.php" enctype="multipart/form-data">
 		<div id="page-wrapper">
 			<header id="header">
 				<h1>
 					<img alt="" src="images/Logobl.png" width="118px" height="48px">
-					<!-- 				<img alt="" src="images/Logob.png" width="200px" height="48px"> -->
+					<!-- logo de Asesuisa -->
 				</h1>
-=======
-			<form method="post" action="index.php" enctype="multipart/form-data">
-	<div id="page-wrapper">
-		<header id="header">
-			<h1>
-				<img alt="" src="images/Logob.png" width="200px" height="48px">
-				<!-- logo de Asesuisa -->
-			</h1>
-		</header>
-		<article id="main">
-			<header>
-				<h2>
-					<img alt="" src="XBS/images/Logob.png" width="250" height="250">
-					<!-- Logo de Convencion -->
-				</h2>
-				<p>Forma parte de esta experiencia sin igual</p>
-				<ul class="actions" id="butones" style="text-align: center;">
-								<li><input type="button" value="Registrarme" class="special"
-									onclick="shw(0);" /></li>
-								<li><input type="button" value="Ya estoy registrado"
-									class="special" onclick="shw(1);" /></li>
-							</ul>
-							<a href="#ff" class="more scrolly" id="gonow" hidden="">Pulsa aqu&iacute; para iniciar la experiencia</a>
->>>>>>> branch 'master' of https://github.com/ITDeveloperAT/ASA.git
+
 			</header>
 			<article id="main">
 				<header>
 					<h2>
-						<img alt="" src="XBS/images/Logob.png" width="256" height="318">
+						<img alt="" src="ACUN/images/Logob.png" width="256" height="318">
 					</h2>
 					<p></p>
 					<ul class="actions" id="butones" style="text-align: center;">
@@ -289,12 +264,15 @@ if (isset($_POST['acepto'])) {
 							</div>
 							<div id="ov" hidden="" style="text-align: center;">
 								<input type="text" name="pssr" id="pssr"
-									placeholder="Ingrese su numero de pasaporte" /> <br>
+									placeholder="Ingrese su numero de pasaporte"
+									style="background-color: white;" /> <br>
 								<ul class="actions" style="text-align: center;">
 									<li><input type="button" value="Aceptar" class="special"
-										onclick="vrf();" id="acepto" name="acepto" /></li>
+										onclick="vrf();" id="acepto" name="acepto"
+										style="background-color: navy;" /></li>
 									<li><input type="button" value="Volver a registro"
-										class="special" onclick="shw(0);" /></li>
+										class="special" onclick="shw(0);"
+										style="background-color: navy;" /></li>
 								</ul>
 							</div>
 							<div id="rel"></div>
@@ -306,7 +284,7 @@ if (isset($_POST['acepto'])) {
 			<footer id="footer">
 				Power By:<br> <a href="http://amatetravel.com" target=" "> <img
 					alt="powerby-amatetravel"
-					src="XBS/images/Amate Travel para fondo gris-01.png" width="291px"
+					src="ACUN/images/Amate Travel para fondo gris-01.png" width="290px"
 					height="44px"></a>
 			</footer>
 

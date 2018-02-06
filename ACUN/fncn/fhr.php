@@ -120,14 +120,14 @@ function inic($a)
 // conexion con usuario de solo consulta
 function precons()
 {
-    // $srvr = 'localhost';
-    // $usdb = 'nosu';
-    // $psd = '932GypOdYb4UH4mh';
-    // $ndlb = 'HXC';
     $srvr = 'localhost';
-    $usdb = 'r8s8q9i4_us2018';
-    $psd = '.(@K6W*6seh}';
-    $ndlb = 'r8s8q9i4_bs2018';
+    $usdb = 'nosu';
+    $psd = '932GypOdYb4UH4mh';
+    $ndlb = 'ASA';
+    // $srvr = 'localhost';
+    // $usdb = 'r8s8q9i4_us2018';
+    // $psd = '.(@K6W*6seh}';
+    // $ndlb = 'r8s8q9i4_bs2018';
     return $srvr . '#' . $usdb . '#' . $psd . '#' . $ndlb;
 }
 
@@ -160,9 +160,9 @@ function stateman($nu, $pa)
         case 0:
             $_SESSION['nuac'] = $nu;
             $_SESSION['logged'] = 'yes';
-            $dir = 'Location:XBS/';
-            //$dir = 'Location: /XBS/';
-            var_dump($dir);
+            $dir = 'Location:/ACUN/';
+            // $dir = 'Location: /XBS/';
+            // var_dump($dir);
             echo header($dir);
             break;
         
@@ -170,8 +170,8 @@ function stateman($nu, $pa)
             if (cnus($nu)) {
                 $_SESSION['nuac'] = $nu;
                 $_SESSION['logged'] = 'yes';
-                //$dir = 'Location:XBS/';
-                $dir = 'Location: http://' . $_SERVER['HTTP_HOST'] . '/unidosesmejor2018/XBS/';
+                // $dir = 'Location:XBS/';
+                $dir = 'Location: http://' . $_SERVER['HTTP_HOST'] . '/ASAUT/ACUN/';
                 echo header($dir);
             } else {
                 echo 'Pasaporte invalido, verifique nuevamente';
