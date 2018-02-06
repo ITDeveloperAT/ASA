@@ -36,10 +36,19 @@ if (! $_SESSION['logged'] == 'yes') {
 				<header class="major">
 					<h1>Restaurantes y Bares</h1>
 				</header>
-				<p>Los 8 Restaurantes y 5 Bares de Hotel Xcaret M&eacute;xico te
-					invitan a dar un viaje alrededor de los sabores del mundo donde la
-					gastronom&iacute;a mexicana, declarada por la UNESCO patrimonio
-					intangible de la humanidad, es la protagonista.</p>
+				<p>Cancún tiene mucho que ofrecer, como sus magníficas playas e
+					impresionantes vistas, pero en Paradisus Cancun también ofrecemos
+					experiencias gastronómicas inolvidables. El chef Martín Berasategui
+					con estrellas Michelin y su restaurante, Tempo, marcan el nivel de
+					la excelencia gastronómica. Pero con nueve restaurantes y ocho
+					bares, esto es sólo el principio. Una deliciosa y nutritiva
+					selección de opciones gastronómicas para todos los gustos, desde
+					los amantes de los máximos placeres sibaritas a los apasionados de
+					la comida reconfortante o los más concienciados con la salud.
+					Gracias a nuestro Servicio de habitaciones 24 horas y nuestra
+					oferta de restaurantes, los huéspedes tienen opciones para cada
+					hora del día y cuando vean lo que pueden encontrar, seguro
+					encontraras lo que buscas.</p>
 			</div>
 		</section>
 		<header id="header" class="alt style2">
@@ -52,42 +61,47 @@ if (! $_SESSION['logged'] == 'yes') {
 			<section id="one" class="tiles">
 				<article>
 					<div class="inner">
-						<span class="image"> <img src="images/pic01.png" alt="" />
+						<span class="image"> <img src="images/01.jpg" alt="" />
 						</span>
 						<header class="major">
-							<h3>Xin-Gao</h3>
-							<h5>Restaurante y Bar</h5>
-						</header>
-					</div>
-				</article>
-				<article style="background-color: #00448c;">
-					<p style="text-align: justify;">
-						Te invitamos a viajar a la cocina asiática a través de una
-						propuesta contemporánea: barra de mixología, tepanyaki, robata
-						grill, un tatami occidental y una barra de sushi. <br> <br> Cena a
-						la carta de 18:00 a 23:00 h Edificio principal (Casa Grande)
-						Requiere reservación para cenar<br>
-					</p>
-				</article>
-			</section>
-			<section id="two" class="tiles">
-				<article>
-					<div class="inner">
-						<span class="image"> <img src="images/pic02.png" alt="" />
-						</span>
-						<header class="major">
-							<h3>Chibali</h3>
+							<h3>Fuego</h3>
 							<h5>Restaurante</h5>
 						</header>
 					</div>
 				</article>
 				<article style="background-color: #00448c;">
 					<p style="text-align: justify;">
-						En este restaurante recreamos la algarabía de las comidas
-						familiares. Gastronomía y diversión se combinan en el buffet, las
-						barras de snacks y las estaciones temáticas. <br> <br>Buffet:
-						Abierto de 11:00 a 23:00 h Casa Viento, junto al club de niños
+						Experimenta el calor en el Fuego, donde los sabores de inspiración
+						latina están listos para tentarte. El ceviche picante, el marisco
+						más fresco y una deliciosa barra de pescado crudo se unen en uno
+						de nuestros mejores restaurantes. Tu paladar necesitará un
+						pasaporte para este viaje culinario. <br>Tipo de Cocina: cocina
+						peruana “Nikkei Style” <br> Atmósfera: donde los frescos sabores
+						de inspiración Peruana-japonesa están listos para tentarte. <br>
+						Código de vestir: resort casual<br>
 					</p>
+				</article>
+			</section>
+			<section id="two" class="tiles">
+				<article>
+					<div class="inner">
+						<span class="image"> <img src="images/02.jpg" alt="" />
+						</span>
+						<header class="major">
+							<h3>Vento</h3>
+							<h5>Restaurante</h5>
+						</header>
+					</div>
+				</article>
+				<article style="background-color: #00448c;">
+					<p style="text-align: justify;">El Mediterráneo sirve de fuente de
+						inspiración a Vento. La animada terraza rodeada de palmeras, crea
+						el ambiente ideal para degustar un menú ligero y fresco de
+						inspiración mediterránea. Los comensales pueden disfrutar de pizza
+						al horno de madera y pasta recién hecha. <br>Tipo de Cocina: tapas de
+						la Cuenca <br>Atmósfera: íntima y a luz baja, en donde las texturas
+						del mediterráneo encantaran tu paladar. <br>Código de vestir: resort
+						casual</p>
 				</article>
 			</section>
 			<section id="two" class="tiles">
