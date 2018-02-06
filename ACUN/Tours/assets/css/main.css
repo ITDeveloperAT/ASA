@@ -2249,7 +2249,7 @@ body.is-touch .poptrox-popup .nav-next, body.is-touch .poptrox-popup .nav-previo
 	left: 0;
 	top: 0;
 	width: 100%;
-	background: rgba(255, 255, 255, 0.95);
+	background: #12b5cd;
 	height: 3em;
 	line-height: 3em;
 	box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
@@ -2646,8 +2646,8 @@ body.is-touch .main {
 
 /* One */
 #one {
-	background: url("images/overlay.png"),
-		url("../../images/chichenluz2.jpg");
+	/*background: url("images/overlay.png"),
+		url("../../images/chichenluz2.jpg");*/
 	background-size: 256px 256px, cover;
 	background-attachment: fixed, fixed;
 	background-position: top left, center center;
