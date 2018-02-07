@@ -103,12 +103,11 @@
 				</div>
 				<div class="content">
 					<h2>
-						&Aacute;reas Comunes<br />
+						Instalaciones<br />
 					</h2>
 					<p>
-						Para algunas personas, ir a la playa es la idea de unas vacaciones
-						perfectas. Para otros, es meter la bola en el hoyo a 10 metros de
-						distancia. <a href="OA">Leer m&aacute;s</a>
+						Superar las expectativas de nuestros clientes, esta es nuestra
+					definición del éxito. <a href="OA">Leer m&aacute;s</a>
 					</p>
 				</div>
 			</section>

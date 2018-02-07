@@ -1,6 +1,6 @@
 <?php
 require 'ACUN/fncn/fhr.php';
-$ncp = ncpais();
+//$ncp = ncpais();
 if (! isset($_SESSION)) {
     session_start();
 }
@@ -19,7 +19,7 @@ if (isset($_POST['Send'])) {
                 $dir = 'Location:ASA/';
                 echo header($dir);
                 break;
-            
+
             case 1:
                 if ($_POST['c11'] != "E" || $_POST['c11'] != "N") {
                     mkdir($target_path . $_POST['c12']);
@@ -38,6 +38,7 @@ if (isset($_POST['Send'])) {
 if (isset($_POST['acepto'])) {
     stateman($_POST['pssr'], 1);
 }
+
 ?>
 <!DOCTYPE HTML>
 <html>
