@@ -171,7 +171,7 @@ function stateman($nu, $pa)
                 $_SESSION['nuac'] = $nu;
                 $_SESSION['logged'] = 'yes';
                 // $dir = 'Location:XBS/';
-                $dir = 'Location: http://' . $_SERVER['HTTP_HOST'] . '/ASAUT/ACUN/';
+                $dir = 'Location: http://' . $_SERVER['HTTP_HOST'] . '/PASA/ACUN/';
                 echo header($dir);
             } else {
                 echo 'Pasaporte invalido, verifique nuevamente';
@@ -184,7 +184,7 @@ function nelentry()
 {
     $_SESSION = array();
     session_destroy();
-    $dir = 'Location: http://' . $_SERVER['HTTP_HOST'] . '/unidosesmejor2018';
+    $dir = 'Location: http://' . $_SERVER['HTTP_HOST'] . '/PASA';
     echo header($dir);
 }
 
