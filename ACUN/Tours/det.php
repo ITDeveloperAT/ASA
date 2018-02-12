@@ -34,7 +34,9 @@ if (isset($_REQUEST['desc'])) {
     }
     for ($i = 0; $i < count($cp); $i ++) {
         $tch = explode("#", $cp[$i]);
-        echo '<section class="main style2 right dark fullscreen" >';
+        echo '<section class="main style2 right dark fullscreen" 
+        style="background: url(' . "images/overlay.png" . '), url(' . $dirimg[$i] . '); background-size: 260px 260px, cover; 
+        background-position: top left, center center; background-attachment: fixed, fixed;">';
         echo '<div class="content box style2">';
         echo '<header><h2>' . $tch[0] . ' - ' . $tch[3] . '</h2></header>';
         echo '<table>';

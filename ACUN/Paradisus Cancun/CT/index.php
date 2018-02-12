@@ -36,12 +36,13 @@ if (! $_SESSION['logged'] == 'yes') {
 				<header class="major">
 					<h1>Suites</h1>
 				</header>
-				<p>Las suites del Hotel Xcaret México, son amplias y lujosas, y
-					están distribuidas en cinco edificios. Cada una te brinda un diseño
-					contemporáneo, y bellas piezas originales, hechas por artesanos
-					mexicanos, además de amenidades y servicios exclusivos. Despiértate
-					con la vista del mar Caribe, del río o de la selva, la inspiración
-					que te acompañará t odos los días durante tu estancia.</p>
+				<p>
+					Espaciosas, lujosas y elegantes, nuestras suites disponen de
+					terraza privada y espectaculares vistas al mar Caribe o la laguna
+					Nichupté. <br> Los suelos de mármol y un elegante mobiliario crean
+					un ambiente moderno y sofisticado, con lujosas camas y tonos
+					cálidos que ofrecen un entorno equilibrado y relajante.
+				</p>
 			</div>
 		</section>
 		<header id="header" class="alt style2">
@@ -54,25 +55,25 @@ if (! $_SESSION['logged'] == 'yes') {
 			<section id="one" class="tiles">
 				<article>
 					<div class="inner">
-						<span class="image"> <img src="images/pic01.png" alt="" />
+						<span class="image"> <img src="images/vistalago.jpg" alt="" />
 						</span>
 						<header class="major">
-							<h3>Garden / River view</h3>
+							<h3>Suite vista al Lago / Océano</h3>
 						</header>
 					</div>
 				</article>
 				<article style="background-color: #00448c;">
-					<p style="text-align: justify;">Disfruta de la comodidad de
-						hospedarte rodeado con magníficas vistas hacia el jard&iacute;n o
-						r&iacute;o. Esta habitación, cuenta con todos los beneficios
-						necesarios para una estancia incomparable. Vista al jardín o
-						r&iacute;o 53 m²</p>
+					<p style="text-align: justify;">Adéntrate en tu habitación de 44 m²
+						y disfruta de todo el lujo y la elegancia que te está esperando.
+						Desde la suite, las naturales e imponentes vistas de Cancún están
+						sólo a unos pasos en tu terraza privada. Déjate llevar por los
+						hermosos colores y las suaves brisas del Caribe.</p>
 				</article>
 			</section>
 			<section id="one" class="tiles">
 				<article>
 					<div class="inner">
-						<span class="image"> <img src="images/pic02.png" alt="" />
+						<span class="image"> <img src="images/vistaoceano.jpg" alt="" />
 						</span>
 						<header class="major">
 							<h3>Detalles de las habitaciones</h3>
@@ -84,28 +85,15 @@ if (! $_SESSION['logged'] == 'yes') {
 						<tr>
 							<td>
 								<ul>
-									<li>1 cama King size</li>
-									<li>Aire acondicionado</li>
-									<li>Minibar resurtido diariamente</li>
-									<li>Amenidades de lujo</li>
-									<li>Cafetera / Tetera</li>
-									<li>Espejo de vanidad</li>
-									<li>Plancha y tabla de planchar</li>
-									<li>Mesa de trabajo</li>
-									<li>Cortesía nocturna</li>
-									<li>Baño</li>
-									<li>Baño privado con ducha</li>
+									<li>Vistas Mar/Lago</li>
+									<li>Vistas Jardín</li>
+									<li>Vistas Piscina</li>
+									<li>Pantalla Plana TV</li>
+									<li>Caja fuerte con capacidad para ordenador portátil</li>
+									<li>Canales por cable</li>
+
 								</ul>
-							</td>
-							<td><ul>
-									<li>Jacuzzi</li>
-									<li>Secadora de cabello</li>
-									<li>Tecnología</li>
-									<li>Internet inalámbrico sin costo</li>
-									<li>Pantalla Plana HD</li>
-									<li>TV por cable / satélite</li>
-									<li>Teléfono de marcado directo ($)</li>
-								</ul></td>
+						
 						</tr>
 					</table>
 				</article>

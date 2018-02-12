@@ -34,13 +34,14 @@ if (! $_SESSION['logged'] == 'yes') {
 		<section id="banner" class="major">
 			<div class="inner">
 				<header class="major">
-					<h1>&Aacute;reas Comunes</h1>
+					<h1>Instalaciones</h1>
 				</header>
-				<p>En armon&iacute;a con el entorno Hotel Xcaret M&eacute;xico te
-					lleva por el camino de relajamiento por medio de instalaciones
-					&uacute;nicas que fusionan la naturaleza con la tecnolog&iacute;a,
-					aqu&iacute; la prioridad es lograr tu bienestar a trav&eacute;s de
-					nuestros servicios.</p>
+				<p>Superar las expectativas de nuestros clientes, esta es nuestra
+					definición del éxito. Las emblemáticas pirámides del complejo, la
+					elegante decoración, las instalaciones excepcionales, un personal
+					atento y cualificado, y las numerosas actividades que se ofrecen in
+					situ, son una de las principales razones por las que los huéspedes
+					regresan de nuevo y nos recomiendan a sus amigos.</p>
 			</div>
 		</section>
 		<header id="header" class="alt style2">
@@ -53,19 +54,19 @@ if (! $_SESSION['logged'] == 'yes') {
 			<section id="one" class="tiles">
 				<article>
 					<div class="inner">
-						<span class="image"> <img src="images/pic01.png" alt="" />
+						<span class="image"> <img src="images/01.jpg" alt="" />
 						</span>
 						<header class="major">
-							<h3>Piscina</h3>
+							<h3>Piscinas</h3>
 						</header>
 					</div>
 				</article>
 				<article>
 					<div class="inner">
-						<span class="image"> <img src="images/pic02.png" alt="" />
+						<span class="image"> <img src="images/02.jpg" alt="" />
 						</span>
 						<header class="major">
-							<h3>Caletas</h3>
+							<h3>Campo de Golf</h3>
 						</header>
 					</div>
 				</article>
@@ -73,19 +74,19 @@ if (! $_SESSION['logged'] == 'yes') {
 			<section id="one" class="tiles">
 				<article>
 					<div class="inner">
-						<span class="image"> <img src="images/pic04.png" alt="" />
+						<span class="image"> <img src="images/04.jpg" alt="" />
 						</span>
 						<header class="major">
-							<h3>Gimnasio</h3>
+							<h3>Yhin Spa</h3>
 						</header>
 					</div>
 				</article>
 				<article>
 					<div class="inner">
-						<span class="image"> <img src="images/Fondo.jpg" alt="" />
+						<span class="image"> <img src="images/descubrelo.jpg" alt="" />
 						</span>
 						<header class="major">
-							<h3>Descubrelo</h3>
+							<h3>Descúbrelo</h3>
 						</header>
 					</div>
 				</article>
