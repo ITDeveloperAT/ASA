@@ -31,3 +31,7 @@ function IOG(datasource, divId, prmts, gky, XMLHttpRequestObject) {
 		}
 	}
 }
+
+function pst(d) {
+	crajx('test', d, 0);
+}
