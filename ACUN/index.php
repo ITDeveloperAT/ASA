@@ -287,7 +287,7 @@ if (! $_SESSION['logged'] == 'yes') {
 					Quintana Roo</p>
 				<p>Tel&eacute;fono: +52 (998) 8811100</p>
 				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3735.050833186445!2d-87.11392798544811!3d20.585981586239875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e447a0e284c35%3A0xe6e589c27e2a75f3!2sHotel+Xcaret+M%C3%A9xico!5e0!3m2!1ses!2ssv!4v1515470089098"
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3722.723472083761!2d-86.77460768543857!3d21.08370398596863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4c28370abdd883%3A0x911f472d975d75cf!2sParadisus+Canc%C3%BAn!5e0!3m2!1ses!2ssv!4v1518475416518"
 					width="560" height="350"></iframe>
 				<br>
 				<hr />
@@ -341,7 +341,7 @@ if (! $_SESSION['logged'] == 'yes') {
 				<b>COMPRAS</b><br> Realiza tus compras en nuestros establecimientos
 				afiliados y elige entre nuestras 12 categor&iacute;as de productos
 				participantes en la devoluci&oacute;n de impuestos. Nuestras
-				categor&iacute;s son las siguientes:
+				categor&iacute;as son las siguientes:
 				<ol style="text-align: justify;">
 					<li>Grasas y aceites animales o vegetales, productos de su
 						desdoblamiento; grasas alimenticias elaboradas; ceras de origen

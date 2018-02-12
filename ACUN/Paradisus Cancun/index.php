@@ -1,15 +1,14 @@
 <?php
-/*
- * require_once '../fncn/fhr.php';
- *
- * if (! isset($_SESSION)) {
- * session_start();
- * }
- * if (! $_SESSION['logged'] == 'yes') {
- * nelentry();
- * }
- * // var_dump($_SESSION['nuac']);
- */
+require_once '../fncn/fhr.php';
+
+if (! isset($_SESSION)) {
+    session_start();
+}
+if (! $_SESSION['logged'] == 'yes') {
+    nelentry();
+}
+// var_dump($_SESSION['nuac']);
+
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -35,7 +34,8 @@
 			<section>
 				<div class="image">
 					<h2>
-						<img alt="" src="images/logoparadisus.png" align="middle">
+						<img alt="" src="images/logoparadisus.png" align="middle"
+							style="background-color: #000000; opacity: 0.45;">
 					</h2>
 				</div>
 				<a href="#one" class="more scrolly">Descubrelo</a>
@@ -107,7 +107,7 @@
 					</h2>
 					<p>
 						Superar las expectativas de nuestros clientes, esta es nuestra
-					definición del éxito. <a href="OA">Leer m&aacute;s</a>
+						definición del éxito. <a href="OA">Leer m&aacute;s</a>
 					</p>
 				</div>
 			</section>
