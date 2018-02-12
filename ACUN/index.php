@@ -18,7 +18,7 @@ if (! $_SESSION['logged'] == 'yes') {
 <link rel="stylesheet" href="assets/css/main.css" />
 <link rel="stylesheet" href="assets/css/noscript.css" />
 </head>
-<body onload="ini();">
+<body>
 	<div id="wrapper">
 		<p style="text-align: left;">
 			<img alt="" src="../images/logoas.png" width="218px" height="78px">
@@ -60,9 +60,9 @@ if (! $_SESSION['logged'] == 'yes') {
 				<h2 style="font-size: 16pt; font-weight: bold;">Â¡UNA EXPERIENCIA
 					INOLVIDABLE!</h2>
 				<p>Por tu esfuerzo y dedicaci&oacute;n, mereces conocer y divertirte
-					al m&aacute;ximo! Por eso te invitamos a conocer todos los parques del
-					hotel Xcaret, al que tendr&aacute;s acceso de forma gratuita, en diversos
-					horarios de noche y de d&iacute;a.</p>
+					al m&aacute;ximo! Por eso te invitamos a conocer todos los parques
+					del hotel Xcaret, al que tendr&aacute;s acceso de forma gratuita,
+					en diversos horarios de noche y de d&iacute;a.</p>
 				<p>Recuerda que en algunos parques necesitas reserva previa, para
 					que planees tu tiempo y lo disfrutes al m&aacute;ximo!</p>
 				<p style="text-align: justify;"></p>
@@ -196,10 +196,10 @@ if (! $_SESSION['logged'] == 'yes') {
 					que desee entrar en M&eacute;xico:</p>
 				<ul>
 					<li>Pasaporte con vigencia m&iacute;nima de 6 meses</li>
-					<li>Visa mexicana o americana requerida para salvadore&ntilde;os, otras
-						nacionalidades consultar con la agencia de viajes.</li>
-					<li>Completar Forma Migratoria M&uacute;ltiple (FMM) (ser&aacute; entregada el
-						d&iacute;a del vuelo de salida).</li>
+					<li>Visa mexicana o americana requerida para salvadore&ntilde;os,
+						otras nacionalidades consultar con la agencia de viajes.</li>
+					<li>Completar Forma Migratoria M&uacute;ltiple (FMM) (ser&aacute;
+						entregada el d&iacute;a del vuelo de salida).</li>
 				</ul>
 				<h2 class="major">
 					<img alt="" src="images/visaame.png" width="56px" height="37px">&nbsp;REQUISITOS
@@ -219,15 +219,15 @@ if (! $_SESSION['logged'] == 'yes') {
 					<li>En su caso, copia de visas y sellos migratorios anteriores</li>
 					<li>Una fotograf&iacute;a reciente (m&aacute;ximo dos meses de
 						antigüedad) con el rostro visible y sin anteojos, a color,
-						tama&ntilde;o c&eacute;dula, con fondo blanco y de frente. Solicitudes
-						con otro tipo o tama&ntilde;o de fotograf&iacute;as no ser&aacute;n
-						admitidas.</li>
+						tama&ntilde;o c&eacute;dula, con fondo blanco y de frente.
+						Solicitudes con otro tipo o tama&ntilde;o de fotograf&iacute;as no
+						ser&aacute;n admitidas.</li>
 					<li>Carta responsiva ORIGINAL: Original de la carta de una
-						organizaci&oacute;n o de una instituci&oacute;n p&uacute;blica o privada
-						de reconocida probidad que invite a la persona extranjera a
-						participar en alguna actividad no remunerada en territorio
-						nacional. La carta deber&aacute; contener, sin excepci&oacute;n, los
-						datos especificados en el enlace: <a
+						organizaci&oacute;n o de una instituci&oacute;n p&uacute;blica o
+						privada de reconocida probidad que invite a la persona extranjera
+						a participar en alguna actividad no remunerada en territorio
+						nacional. La carta deber&aacute; contener, sin excepci&oacute;n,
+						los datos especificados en el enlace: <a
 						href="https://embamex.sre.gob.mx/elsalvador/index.php/seccion-consular/tipos-de-visa?id=195"
 						target=" " style="color: white; font-weight: bold;">Visa mediante
 							carta responsiva. </a> En ese mismo enlace se detalla m&aacute;s
@@ -359,18 +359,18 @@ if (! $_SESSION['logged'] == 'yes') {
 					<li>Manufacturas de piedra, cemento, amianto (asbesto), mica o
 						materias an&aacute;logas; productos cer&aacute;micos; vidrio y sus
 						manufacturas.</li>
-					<li>M&aacute;quinas y aparatos, material el&eacute;ctrico y sus partes;
-						aparatos de grabaci&oacute;n o de reproducci&oacute;n de sonido,
-						aparatos de grabaci&oacute;n o de reproducci&oacute;n de imagen y
-						de sonido en televisi&oacute;n, y las partes y accesorios de estos
-						aparatos.</li>
+					<li>M&aacute;quinas y aparatos, material el&eacute;ctrico y sus
+						partes; aparatos de grabaci&oacute;n o de reproducci&oacute;n de
+						sonido, aparatos de grabaci&oacute;n o de reproducci&oacute;n de
+						imagen y de sonido en televisi&oacute;n, y las partes y accesorios
+						de estos aparatos.</li>
 					<li>Objetos de arte o de colecci&oacute;n y antigüedades.</li>
 					<li>Instrumentos y aparatos de &oacute;ptica (gafas y lentes de
 						contacto), fotograf&iacute;a o de cinematograf&iacute;a, de
 						medida, de control o de precisi&oacute;n; instrumentos y
-						aparatos m&eacute;dico-quir&uacute;rgicos; aparatos de relojer&iacute;a;
-						instrumentos musicales; partes y accesorios de estos instrumentos
-						o aparatos, discos compactos, DVD'S.</li>
+						aparatos m&eacute;dico-quir&uacute;rgicos; aparatos de
+						relojer&iacute;a; instrumentos musicales; partes y accesorios de
+						estos instrumentos o aparatos, discos compactos, DVD'S.</li>
 					<li>Materias textiles y sus manufacturas (ropa, calzado, corbatas).</li>
 					<li>Perlas naturales o cultivadas, piedras preciosas o
 						semipreciosas (collares), metales preciosos, chapados de metal
@@ -381,29 +381,31 @@ if (! $_SESSION['logged'] == 'yes') {
 				</ol>
 
 				<p style="text-align: justify;">
-					<b>DOCUMENTACI&Oacute;N A PRESENTAR</b><br>Dir&iacute;jase a las oficinas
-					de TAX FREE y presente -Vouchers y factura. -Pasaporte, su pase de
-					abordar y su forma migratoria (FMM).<br> <br> <b>FACTURAS</b><br>Una
+					<b>DOCUMENTACI&Oacute;N A PRESENTAR</b><br>Dir&iacute;jase a las
+					oficinas de TAX FREE y presente -Vouchers y factura. -Pasaporte, su
+					pase de abordar y su forma migratoria (FMM).<br> <br> <b>FACTURAS</b><br>Una
 					vez realizada tu compra solamente necesitas solicitar la factura en
-					el &aacute;rea de cajas o atenci&oacute;n a clientes del establecimiento.
-					Recuerda que es muy importante que conserves cada uno de los
-					documentos que avalan el pago, as&iacute; como el ticket de compra,
-					nota de venta y vouchers de tarjeta de cr&eacute;dito en caso de haber
-					realizado la compra con una tarjeta de cr&eacute;dito o d&eacute;bito. Cuando
-					has pagado en efectivo, las facturas expedidas deben ser mayores a
-					$1,000.00 M.N. (Mil pesos mexicanos) y no deben rebasar los
-					$3,000.00 M.N. (Tres mil pesos mexicanos) para poder realizar la
-					devoluci&oacute;n. Para las compras realizadas con tarjeta de
-					cr&eacute;dito o d&eacute;bito el monto m&iacute;nimo es de $1,200.00 M.N. (Mil
-					doscientos pesos mexicanos).<br> <br> <b>ART&Iacute;CULOS EXENTOS</b><br>Consumos
-					y servicios (hoteles, restaurantes, taxis, boletos de avi&oacute;n,
+					el &aacute;rea de cajas o atenci&oacute;n a clientes del
+					establecimiento. Recuerda que es muy importante que conserves cada
+					uno de los documentos que avalan el pago, as&iacute; como el ticket
+					de compra, nota de venta y vouchers de tarjeta de cr&eacute;dito en
+					caso de haber realizado la compra con una tarjeta de cr&eacute;dito
+					o d&eacute;bito. Cuando has pagado en efectivo, las facturas
+					expedidas deben ser mayores a $1,000.00 M.N. (Mil pesos mexicanos)
+					y no deben rebasar los $3,000.00 M.N. (Tres mil pesos mexicanos)
+					para poder realizar la devoluci&oacute;n. Para las compras
+					realizadas con tarjeta de cr&eacute;dito o d&eacute;bito el monto
+					m&iacute;nimo es de $1,200.00 M.N. (Mil doscientos pesos
+					mexicanos).<br> <br> <b>ART&Iacute;CULOS EXENTOS</b><br>Consumos y
+					servicios (hoteles, restaurantes, taxis, boletos de avi&oacute;n,
 					bienes -ra&iacute;ces, etc.) -Productos perecederos. -Libros.
 					-Medicinas. -Bebidas alcoh&oacute;licas abiertas Todos los
 					documentos deben ser con el mismo nombre del turista.<br> <br> <b>REEMBOLSO</b><br>Se
-					depositar&aacute; la cantidad correspondiente despu&eacute;s de 40 d&iacute;as
-					de haber salido del pa&iacute;s. Se reembolsar&aacute; el 65% del IVA por
-					disposici&oacute;n oficial.<br> <br> Para mayor informaci&oacute;n
-					puede acceder a: <a href="https://taxfree.com.mx/v1/" target=" "
+					depositar&aacute; la cantidad correspondiente despu&eacute;s de 40
+					d&iacute;as de haber salido del pa&iacute;s. Se reembolsar&aacute;
+					el 65% del IVA por disposici&oacute;n oficial.<br> <br> Para mayor
+					informaci&oacute;n puede acceder a: <a
+						href="https://taxfree.com.mx/v1/" target=" "
 						style="color: white; font-weight: bold;">Tax free</a>
 				</p>
 
@@ -412,22 +414,24 @@ if (! $_SESSION['logged'] == 'yes') {
 				<p style="text-align: justify;">
 					Es el proveedor l&iacute;der de servicios de reembolso de impuestos
 					(reembolso del impuesto al valor agregado o reembolso del impuesto
-					a las ventas) para viajeros internacionales en M&eacute;xico. <br> <br> <b>COMPRAS</b><br>
-					Realice sus compras en todos los comercios afiliados a MONEY BACK,
-					la mayor&iacute;a de los cuales puede identificar a trav&eacute;s de una
-					calcoman&iacute;a o display colocado en la entrada de estos o junto
-					a la caja. El monto m&iacute;nimo es de $1,200.00 MXN. Las compras
-					realizadas en efectivo tienen un limite de $3,000.00 incluyendo IVA
-					por persona. Si el pago es realizado en tarjeta de cr&eacute;dito, no hay
+					a las ventas) para viajeros internacionales en M&eacute;xico. <br>
+					<br> <b>COMPRAS</b><br> Realice sus compras en todos los comercios
+					afiliados a MONEY BACK, la mayor&iacute;a de los cuales puede
+					identificar a trav&eacute;s de una calcoman&iacute;a o display
+					colocado en la entrada de estos o junto a la caja. El monto
+					m&iacute;nimo es de $1,200.00 MXN. Las compras realizadas en
+					efectivo tienen un limite de $3,000.00 incluyendo IVA por persona.
+					Si el pago es realizado en tarjeta de cr&eacute;dito, no hay
 					l&iacute;mite m&aacute;ximo. Debe solicitar una factura (RFC
 					XEXX010101000), que es el comprobante fiscal oficial por cada
 					compra que realice. <br> <br> <b>DOCUMENTACION A PRESENTAR</b><br>
 					Vouchers y facturas. - Pasaporte, su pase de abordar y su forma
 					migratoria (FMM). Todos los documentos deben ser con el mismo
-					nombre del turista.<br> <br> <b>REEMBOLSO</b><br> Se depositar&aacute; en
-					su tarjeta de cr&eacute;dito la cantidad correspondiente despu&eacute;s de 45
-					d&iacute;as, se reembolsar&aacute; el 8.9% sobre sus compras. <br> <br>
-					Para mayor informaci&oacute;n visita el siguiente enlace: <a
+					nombre del turista.<br> <br> <b>REEMBOLSO</b><br> Se
+					depositar&aacute; en su tarjeta de cr&eacute;dito la cantidad
+					correspondiente despu&eacute;s de 45 d&iacute;as, se
+					reembolsar&aacute; el 8.9% sobre sus compras. <br> <br> Para mayor
+					informaci&oacute;n visita el siguiente enlace: <a
 						href="http://www.moneyback.mx/" target=" "
 						style="color: white; font-weight: bold;">Visa de turismo </a>
 				</p>
@@ -449,8 +453,9 @@ if (! $_SESSION['logged'] == 'yes') {
 						maleta de mano, para evitar los decomisos en migraci&oacute;n.</li>
 					<li>Se&ntilde;aliza tu maleta adecuadamente con nombre y apellido y
 						alg&uacute;n distintivo para evitar perdidas.</li>
-					<li>No guardes en tu equipaje laptops, tablets o celulares,c&aacute;maras
-						o dem&aacute;s objetos de valor, ll&eacute;valos contigo en tu maleta de mano.</li>
+					<li>No guardes en tu equipaje laptops, tablets o
+						celulares,c&aacute;maras o dem&aacute;s objetos de valor,
+						ll&eacute;valos contigo en tu maleta de mano.</li>
 					<li>No olvides llevar tu protector solar y repelente para
 						mosquitos.</li>
 					<li>No ingresar licor ni cremas en tu maleta de mano, para evitar
@@ -461,8 +466,8 @@ if (! $_SESSION['logged'] == 'yes') {
 				<h3>Durante el viaje</h3>
 				<ol>
 					<li>Trata de estar 10 min antes de la salida a cualquier tour o
-						ceremonia, recuerda que la puntualidad te ayudar&aacute; a disfrutar mas
-						cada segundo de tu viaje.</li>
+						ceremonia, recuerda que la puntualidad te ayudar&aacute; a
+						disfrutar mas cada segundo de tu viaje.</li>
 					<li>No olvides tus gafas solares, repelentes o protector.</li>
 					<li>Recuerda reservar con tiempo los tours para que no te pierdas
 						de ninguna experiencia</li>
@@ -471,9 +476,9 @@ if (! $_SESSION['logged'] == 'yes') {
 					<li>Utiliza sombrero o gorras para protegerte del sol.</li>
 					<li>Respeta las reglas y normativas del hotel para evitar cargos
 						extras.</li>
-					<li>No dejes tus pertenencias como c&aacute;maras, tablets, computadoras
-						o celulares sin observaci&oacute;n para evitar perdidas o
-						reclamos.</li>
+					<li>No dejes tus pertenencias como c&aacute;maras, tablets,
+						computadoras o celulares sin observaci&oacute;n para evitar
+						perdidas o reclamos.</li>
 				</ol>
 				<h3>Despu&eacute;s del viaje</h3>
 				<ol>
@@ -518,43 +523,37 @@ if (! $_SESSION['logged'] == 'yes') {
 				</p>
 				<h2 class="major">Mi&eacute;rcoles 7 de Marzo</h2>
 				<p style="text-align: justify;">
-					07:00 am&nbsp;&nbsp;&nbsp;Desayuno Restaurante Naos
-					 <br> 08:30 am&nbsp;&nbsp;&nbsp;Salida hacia Marina
-					 <br> 09:00 am&nbsp;&nbsp;&nbsp;Salida Tour Catamar&aacute;n Sea Passion Isla Mujeres <br>
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tour de snorkeling guiado
-					<br>
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Almuerzo en Ice Bar Isla Mujeres
-					<br>
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tiempo libre para conocer Isla Mujeres
-					<br>
-					04:00 pm&nbsp;&nbsp;&nbsp;Regreso a Marina<br>
-					04:30 pm&nbsp;&nbsp;&nbsp;Llegada a Hotel Paradisus Canc&uacute;n<br>
-					07:30 pm&nbsp;&nbsp;&nbsp;Cena en Restaurante <br>
-					09:00 pm&nbsp;&nbsp;&nbsp;Show
+					07:00 am&nbsp;&nbsp;&nbsp;Desayuno Restaurante Naos <br> 08:30
+					am&nbsp;&nbsp;&nbsp;Salida hacia Marina <br> 09:00
+					am&nbsp;&nbsp;&nbsp;Salida Tour Catamar&aacute;n Sea Passion Isla
+					Mujeres <br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tour
+					de snorkeling guiado <br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Almuerzo
+					en Ice Bar Isla Mujeres <br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tiempo
+					libre para conocer Isla Mujeres <br> 04:00
+					pm&nbsp;&nbsp;&nbsp;Regreso a Marina<br> 04:30
+					pm&nbsp;&nbsp;&nbsp;Llegada a Hotel Paradisus Canc&uacute;n<br>
+					07:30 pm&nbsp;&nbsp;&nbsp;Cena en Restaurante <br> 09:00
+					pm&nbsp;&nbsp;&nbsp;Show
 				</p>
 				<h2 class="major">Jueves 8 de Marzo</h2>
 				<p style="text-align: justify;">
-					D&iacute;a libre<br>
-					09:00 pm&nbsp;&nbsp;&nbsp;Cena de despedida en Restaurante Enso (casual blanco)
+					D&iacute;a libre<br> 09:00 pm&nbsp;&nbsp;&nbsp;Cena de despedida en
+					Restaurante Enso (casual blanco)
 				</p>
-				
-				
+
+
 				<h2 class="major">Viernes 9 de Marzo</h2>
 				<p style="text-align: justify;">
-				07:00 am&nbsp;&nbsp;&nbsp;Desayuno Restaurante Naos
-					 <br> 08:30 am&nbsp;&nbsp;&nbsp;Check out Hotel<br>
-					 09:30 am&nbsp;&nbsp;&nbsp;Salida hacia aeropuerto Canc&uacute;n<br>
-					 12:48 pm&nbsp;&nbsp;&nbsp;Salida de vuelo a San Salvador<br>
-					 01:25 pm&nbsp;&nbsp;&nbsp;Llegada a Comalapa<br>
-					 03:00 pm&nbsp;&nbsp;&nbsp;Llegada a Asesuisa<br>
+					07:00 am&nbsp;&nbsp;&nbsp;Desayuno Restaurante Naos <br> 08:30
+					am&nbsp;&nbsp;&nbsp;Check out Hotel<br> 09:30
+					am&nbsp;&nbsp;&nbsp;Salida hacia aeropuerto Canc&uacute;n<br> 12:48
+					pm&nbsp;&nbsp;&nbsp;Salida de vuelo a San Salvador<br> 01:25
+					pm&nbsp;&nbsp;&nbsp;Llegada a Comalapa<br> 03:00
+					pm&nbsp;&nbsp;&nbsp;Llegada a Asesuisa<br>
 				</p>
-			
-				<form method="post" enctype="multipart/form-data"
-					style="text-align: center;">
-					<div id="mm"></div>
-					<div id="gm"></div>
-					<div id="rel"></div>
-				</form>
 			</article>
 
 			<!-- Elements -->
