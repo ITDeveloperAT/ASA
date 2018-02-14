@@ -28,10 +28,19 @@ function IOG(datasource, divId, prmts, gky, XMLHttpRequestObject) {
 		case 0:
 			XMLHttpRequestObject.send("desc=" + prmts);
 			break;
+		case 1:
+			XMLHttpRequestObject.send("shwyg=" + prmts);
+			break;
 		}
 	}
 }
 
 function pst(d) {
 	crajx('test', d, 0);
+}
+
+function sntml(ps, p) {
+	alert(p);
+	alert(ps);
+	crajx('tt' + p, ps + "#" + p, 1);
 }

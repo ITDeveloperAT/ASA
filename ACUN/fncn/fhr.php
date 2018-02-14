@@ -120,14 +120,14 @@ function inic($a)
 // conexion con usuario de solo consulta
 function precons()
 {
-    $srvr = 'localhost';
-    $usdb = 'nosu';
-    $psd = '932GypOdYb4UH4mh';
-    $ndlb = 'ASA';
     // $srvr = 'localhost';
-    // $usdb = 'r8s8q9i4_us2018';
-    // $psd = '.(@K6W*6seh}';
-    // $ndlb = 'r8s8q9i4_bs2018';
+    // $usdb = 'nosu';
+    // $psd = '932GypOdYb4UH4mh';
+    // $ndlb = 'ASA';
+    $srvr = 'localhost';
+    $usdb = 'r8s8q9i4_asu2018';
+    $psd = '9oF7cPB#te;k';
+    $ndlb = 'r8s8q9i4_asa2018';
     return $srvr . '#' . $usdb . '#' . $psd . '#' . $ndlb;
 }
 

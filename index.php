@@ -51,7 +51,7 @@ if (isset($_POST['acepto'])) {
 	<form method="post" action="index.php" enctype="multipart/form-data">
 		<div id="page-wrapper">
 			<header id="header">
-				<h1>
+				<h1 style="padding-top: 5px;">
 					<img alt="" src="images/Logobl.png" width="118px" height="48px">
 					<!-- logo de Asesuisa -->
 				</h1>
@@ -60,9 +60,9 @@ if (isset($_POST['acepto'])) {
 			<article id="main">
 				<header>
 					<h2>
-						<img alt="" src="ACUN/images/Logob.png" width="256" height="318">
+						<img alt="" src="ACUN/images/Logob.png" width="350" height="435">
 					</h2>
-					<p></p>
+					<p>Forma parte de esta experiencia sin igual</p>
 					<ul class="actions" id="butones" style="text-align: center;">
 						<li><input type="button" value="Registrarme" class="special"
 							onclick="shw(0);" /></li>

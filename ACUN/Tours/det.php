@@ -1,13 +1,13 @@
 <?php
 if (isset($_REQUEST['desc'])) {
-    $para = 'fher0ppst@gmail.com';
+    /*$para = 'fher0ppst@gmail.com';
     // $para = 'rvelasquez@avitours.com.sv';
     $titulo = 'Prueba';
     $mensaje = 'Hola';
     $cabeceras = 'From: desarrollo@amatetravel.com' . "\r\n" . 'Reply-To: desarrollo@amatetravel.com' . "\r\n" . 'X-Mailer: PHP/' . phpversion();
     
     mail($para, $titulo, $mensaje, $cabeceras);
-    
+    */
     $ub = $_REQUEST['desc'];
     $ar = array(
         'R1',
@@ -59,11 +59,17 @@ if (isset($_REQUEST['desc'])) {
         echo '</p>';
         echo '</td></tr>';
         echo '<tr><td>';
-        echo '<input type="button" value="Enviarme mas informaci&oacute;n a mi correo" onclick="" style="color: black;">';
+        echo '<input type="button" value="Enviar mas informaci&oacute;n a mi correo" onclick="sntml("' . $_SESSION['nuac'] . '","'.$i.'");" style="color: black;">';
+        echo '</td></tr>';
+        echo '<tr><td>';
+        echo '<div id="tt' . $i . '"></div>';
         echo '</td></tr>';
         echo '</table>';
         echo '</div></section>';
     }
 }
 
+if (isset($_REQUEST['shwyg'])) {
+    echo 'La informacion';
+}
 ?>

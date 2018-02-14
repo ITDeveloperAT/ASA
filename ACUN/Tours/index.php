@@ -1,5 +1,5 @@
 <?php
-require_once 'fncn/fhr.php';
+require_once '../fncn/fhr.php';
 
 if (! isset($_SESSION)) {
     session_start();
@@ -7,7 +7,7 @@ if (! isset($_SESSION)) {
 if (! $_SESSION['logged'] == 'yes') {
     nelentry();
 }
-var_dump($_SESSION['logged']);
+// var_dump($_SESSION['nuac']);
 ?>
 <!DOCTYPE HTML>
 <html>
