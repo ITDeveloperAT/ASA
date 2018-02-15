@@ -57,7 +57,7 @@ if (! $_SESSION['logged'] == 'yes') {
 		<div id="main" style="background-color: #12b5cd; opacity: 0.76">
 			<article id="afi-prk" style="background-color: #24468a;">
 				<h2 class="major">Parques y tours</h2>
-				<h2 style="font-size: 16pt; font-weight: bold;">Â¡UNA EXPERIENCIA
+				<h2 style="font-size: 16pt; font-weight: bold;">¡UNA EXPERIENCIA
 					INOLVIDABLE!</h2>
 				<p>Por tu esfuerzo y dedicaci&oacute;n, mereces conocer y divertirte
 					al m&aacute;ximo! Por eso te invitamos a conocer todos los parques
@@ -188,6 +188,21 @@ if (! $_SESSION['logged'] == 'yes') {
 						</tbody>
 					</table>
 				</div>
+				<p>Nota importante: El día del vuelo, deberá presentarse con 3 horas
+					de anticipación en el aeropuerto (Ponerlo abajo del itinerario
+					aéreo)</p>
+
+
+				<h2 class="major">
+					<img alt="" src="images/maleta01.png" width="45px" height="37px">&nbsp;EQUIPAJE
+					PERMITIDO
+				</h2>
+				<ul>
+					<li>1 Maleta de mano de 22 Libras / 9.98 KGS 45 pulgadas lineales
+						al sumar ancho + alto + largo</li>
+					<li>1 Maleta documentada de 50 Libras / 22.68 KGS 62 pulgadas
+						lineales al sumar ancho + alto + largo</li>
+				</ul>
 				<h2 class="major">
 					<img alt="" src="images/pass.png" width="56px" height="62px">&nbsp;REQUISITOS
 					MIGRATORIOS
@@ -489,6 +504,10 @@ if (! $_SESSION['logged'] == 'yes') {
 				<ol>
 					<li>No se permite fumar dentro de las habitaciones y la persona que
 						lo haga pagar&aacute; una multa de 500 USD.</li>
+					<li>Al registrarse en el hotel, se solicitará una tarjeta de
+						crédito para su consumos adicionales durante su estadía, de no
+						poseer una, deberá realizar el pago inmediatamente al obtener el
+						servicio.</li>
 				</ol>
 			</article>
 			<article id="jbmr" style="background-color: #24468a;">
@@ -497,10 +516,8 @@ if (! $_SESSION['logged'] == 'yes') {
 					de actividades
 				</h2>
 				<h2 class="major">Mi&eacute;rcoles 28 de Febrero</h2>
-				<p style="text-align: justify;">
-					Entrega de Kit Convencionistas Los Cebollines Los Pr&oacute;ceres <br>
-					Maleta + Boleto
-				</p>
+				<p style="text-align: justify;">03:00 pm&nbsp;&nbsp;&nbsp;Entrega de
+					Kit Convencionistas Los Cebollines Los Próceres Maleta + boleto</p>
 
 				<h2 class="major">Martes 6 de Marzo</h2>
 				<p style="text-align: justify;">
@@ -513,7 +530,7 @@ if (! $_SESSION['logged'] == 'yes') {
 					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Check
 					in Avenue Bar<br>
 					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Almuerzo
-					Restaurante<br>
+					Restaurante Naos<br>
 					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Market
 					Grill<br>
 					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tarde
@@ -523,25 +540,30 @@ if (! $_SESSION['logged'] == 'yes') {
 				</p>
 				<h2 class="major">Mi&eacute;rcoles 7 de Marzo</h2>
 				<p style="text-align: justify;">
-					07:00 am&nbsp;&nbsp;&nbsp;Desayuno Restaurante Naos <br> 08:30
-					am&nbsp;&nbsp;&nbsp;Salida hacia Marina <br> 09:00
-					am&nbsp;&nbsp;&nbsp;Salida Tour Catamar&aacute;n Sea Passion Isla
-					Mujeres <br>
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tour
-					de snorkeling guiado <br>
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Almuerzo
-					en Ice Bar Isla Mujeres <br>
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tiempo
-					libre para conocer Isla Mujeres <br> 04:00
-					pm&nbsp;&nbsp;&nbsp;Regreso a Marina<br> 04:30
-					pm&nbsp;&nbsp;&nbsp;Llegada a Hotel Paradisus Canc&uacute;n<br>
-					07:30 pm&nbsp;&nbsp;&nbsp;Cena en Restaurante <br> 09:00
-					pm&nbsp;&nbsp;&nbsp;Show
+					07:00 am&nbsp;&nbsp;&nbsp;Desayuno Restaurante Naos. <br> 09:00
+					am&nbsp;&nbsp;&nbsp;Pick-up en el Hotel Paradisus Canc&uacute;n. <br>
+					09:30 am&nbsp;&nbsp;&nbsp;Check-in en la Marina. <br> 09:00
+					am&nbsp;&nbsp;&nbsp;Salida Tour Catamar&aacute;n hacia los
+					arrecifes. <br> 10:45 am&nbsp;&nbsp;&nbsp;Llegada estimada a la
+					zona de arrecifes. <br> 11:00 am&nbsp;&nbsp;&nbsp;Entrega de equipo
+					de snorkeling.<br> 11:45 am&nbsp;&nbsp;&nbsp;Tour de snorkeling
+					guiado (duración 45 min. aprox).<br> 12:00 pm&nbsp;Navegación a
+					Isla Mujeres y tiempo libre para visitar el Centro y hacer compras.<br>
+					01:30 pm&nbsp;&nbsp;&nbsp;Regreso a la embarcación para dirigirse
+					hacia el Club de Playa.<br> 02:00 pm&nbsp;&nbsp;&nbsp;Llegada al
+					Club de Playa (almuerzo y bebidas), tiempo para relajarse.<br>
+					03:45 pm&nbsp;&nbsp;&nbsp;Abordaje del Catamar&aacute;n para el
+					regreso a Canc&uacute;n.<br> 05:30 pm&nbsp;&nbsp;&nbsp;Llegada
+					aproximada al muelle Canc&uacute;n. <br> 06:00
+					pm&nbsp;&nbsp;&nbsp;Llegada aproximada al Hotel Paradisus
+					Canc&uacute;n. <br> 07:30 pm&nbsp;&nbsp;&nbsp;Cena libre.<br>
+
 				</p>
 				<h2 class="major">Jueves 8 de Marzo</h2>
 				<p style="text-align: justify;">
-					D&iacute;a libre<br> 09:00 pm&nbsp;&nbsp;&nbsp;Cena de despedida en
-					Restaurante Enso (casual blanco)
+					D&iacute;a libre<br> 06:00 pm&nbsp;&nbsp;&nbsp;Cena de despedida en
+					Restaurante Enso (casual blanco).<br> 09:00
+					pm&nbsp;&nbsp;&nbsp;Show.
 				</p>
 
 
