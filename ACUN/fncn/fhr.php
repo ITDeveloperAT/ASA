@@ -14,7 +14,6 @@ function ncpais()
         $np[$i] = fgets($fp);
         $i ++;
     }
-    
     $file = "cod.txt";
     $fp = fopen($file, "r+");
     $i = 0;
@@ -120,14 +119,14 @@ function inic($a)
 // conexion con usuario de solo consulta
 function precons()
 {
-    // $srvr = 'localhost';
-    // $usdb = 'nosu';
-    // $psd = '932GypOdYb4UH4mh';
-    // $ndlb = 'ASA';
     $srvr = 'localhost';
-    $usdb = 'r8s8q9i4_ua2018';
-    $psd = 'Deed457abut102';
-    $ndlb = 'r8s8q9i4_ase2018';
+    $usdb = 'nosu';
+    $psd = '932GypOdYb4UH4mh';
+    $ndlb = 'ASA';
+    // $srvr = 'localhost';
+    // $usdb = 'r8s8q9i4_ua2018';
+    // $psd = 'Deed457abut102';
+    // $ndlb = 'r8s8q9i4_ase2018';
     return $srvr . '#' . $usdb . '#' . $psd . '#' . $ndlb;
 }
 
@@ -171,7 +170,7 @@ function stateman($nu, $pa)
                 $_SESSION['nuac'] = $nu;
                 $_SESSION['logged'] = 'yes';
                 // $dir = 'Location:XBS/';
-                $dir = 'Location: http://' . $_SERVER['HTTP_HOST'] . '/asura2018/ACUN/';
+                $dir = 'Location: http://' . $_SERVER['HTTP_HOST'] . '/ASAUT/ACUN/';
                 echo header($dir);
             } else {
                 echo 'Pasaporte invalido, verifique nuevamente';
@@ -184,8 +183,17 @@ function nelentry()
 {
     $_SESSION = array();
     session_destroy();
-    $dir = 'Location: http://' . $_SERVER['HTTP_HOST'] . '/asura2018';
+    $dir = 'Location: http://' . $_SERVER['HTTP_HOST'] . '/ASAUT';
     echo header($dir);
+}
+
+function denc($d)
+{
+    $a = "SELECT NU_PASS, NOM_PAX, APE_PAX, EMAIL FROM PAX WHERE NU_PASS = '$d'";
+    $m = mysqli_query($_SESSION['uncons'], $a);
+    $r = mysqli_fetch_array($m, MYSQLI_NUM);
+    $r = strrev(base64_encode(implode("#", $r)));
+    return $r;
 }
 
 ?>

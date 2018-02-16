@@ -1,14 +1,9 @@
 <?php
+// require $_SERVER['HTTP_HOST'].'/ACUN/fncn/fhr.php';
 if (isset($_REQUEST['desc'])) {
-    /*$para = 'fher0ppst@gmail.com';
-    // $para = 'rvelasquez@avitours.com.sv';
-    $titulo = 'Prueba';
-    $mensaje = 'Hola';
-    $cabeceras = 'From: desarrollo@amatetravel.com' . "\r\n" . 'Reply-To: desarrollo@amatetravel.com' . "\r\n" . 'X-Mailer: PHP/' . phpversion();
+    $pc = explode("#", $_REQUEST['desc']);
+    $ub = $pc[0];
     
-    mail($para, $titulo, $mensaje, $cabeceras);
-    */
-    $ub = $_REQUEST['desc'];
     $ar = array(
         'R1',
         'R2',
@@ -59,7 +54,7 @@ if (isset($_REQUEST['desc'])) {
         echo '</p>';
         echo '</td></tr>';
         echo '<tr><td>';
-        echo '<input type="button" value="Enviar mas informaci&oacute;n a mi correo" onclick="sntml("' . $_SESSION['nuac'] . '","'.$i.'");" style="color: black;">';
+        echo '<input type="button" value="Enviar mas informaci&oacute;n a mi correo" onclick="sntml(' . "'$pc[1]'" . ', ' . $i . ', ' . "'$tch[0]'" . ');" style="color: black;">';
         echo '</td></tr>';
         echo '<tr><td>';
         echo '<div id="tt' . $i . '"></div>';
@@ -70,6 +65,13 @@ if (isset($_REQUEST['desc'])) {
 }
 
 if (isset($_REQUEST['shwyg'])) {
-    echo 'La informacion';
+    $prc = explode("||", $_REQUEST['shwyg']);
+    $d = explode("#", base64_decode(strrev($prc[0])));
+    $para = 'fher0ppst@gmail.com';
+    $titulo = 'Informacion de parques y tours ASESUISA2018';
+    $mensaje = 'Hola companeras,' . "\r\n" . 'El cliente ' . $d[1] . ' ' . $d[2] . ' con pasaporte ' . $d[0] . ' Solicita mas informacion sobre: ' . $prc[1] . ' a la siguiente cuenta: ' . $prc[3] . '"';
+    $cabeceras = 'From: Fernando Gomez' . "\r\n" . 'Reply-To: desarrollo@amatetravel.com' . "\r\n" . 'X-Mailer: PHP/' . phpversion();
+    mail($para, $titulo, $mensaje, $cabeceras);
+    echo '<p style="font-size: 12pt;">Un agente de viajes se contactar&aacute; contigo lo m&aacute;s pronto posible para brindarte mayores detalles.</p>';
 }
 ?>

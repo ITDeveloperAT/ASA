@@ -35,12 +35,10 @@ function IOG(datasource, divId, prmts, gky, XMLHttpRequestObject) {
 	}
 }
 
-function pst(d) {
-	crajx('test', d, 0);
+function pst(d, f) {
+	crajx('test', d + "#" + f, 0);
 }
 
-function sntml(ps, p) {
-	alert(p);
-	alert(ps);
-	crajx('tt' + p, ps + "#" + p, 1);
+function sntml(p, q, info) {
+	crajx('tt' + q, p + "||" + info, 1);
 }
